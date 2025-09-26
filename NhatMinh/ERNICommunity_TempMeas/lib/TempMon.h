@@ -1,0 +1,46 @@
+/*
+ * TempMon.h
+ *
+ *  Created on: 16.06.2016
+ *      Author: scan
+ */
+
+#ifndef LIB_TEMPMON_TEMPMON_H_
+#define LIB_TEMPMON_TEMPMON_H_
+
+class Timer;
+class Adafruit_MCP9808;
+
+//-----------------------------------------------------------------------------
+
+class ITempMonAdapter
+{
+public:
+  static void NotifyTempChg(float temp);
+  virtual ~ITempMonAdapter();
+};
+
+//-----------------------------------------------------------------------------
+
+class TempMon
+{
+public:
+  TempMon(ITempMonAdapter* tempMonAdapter, unsigned long monitorIntervalMillis = s_defaultMonitorIntervalMillis);
+  virtual ~TempMon();
+  void measTemp();
+
+private:
+  Timer* m_timer;
+  Adafruit_MCP9808* m_tempSensor;
+  ITempMonAdapter* m_adapter;
+  unsigned long m_monitorIntervalMillis;
+  const static unsigned long s_defaultMonitorIntervalMillis;
+
+
+private:  // forbidden functions
+  TempMon();                                // default constructor
+  TempMon(const TempMon& src);              // copy constructor
+  TempMon& operator = (const TempMon& src); // assignment operator
+};
+
+#endif /* LIB_TEMPMON_TEMPMON_H_ */

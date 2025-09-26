@@ -1,0 +1,120 @@
+#ifndef S3FS_FDCACHE_PAGE_H_
+#define S3FS_FDCACHE_PAGE_H_
+
+// //#include <cstdint>
+// //#include <sys/types.h>
+// //#include <vector>
+
+//------------------------------------------------
+// Symbols
+//------------------------------------------------
+// [NOTE]
+// If the following symbols in lseek whence are undefined, define them.
+// If it is not supported by lseek, s3fs judges by the processing result of lseek.
+//
+#ifndef SEEK_DATA
+#define SEEK_DATA               3
+#endif
+#ifndef SEEK_HOLE
+#define SEEK_HOLE               4
+#endif
+
+//------------------------------------------------
+// Structure fdpage
+//------------------------------------------------
+// page block information
+struct fdpage
+{
+    off_t  offset;
+    off_t  bytes;
+    bool   loaded;
+    bool   modified;
+
+    explicit fdpage(off_t start = 0, off_t  size = 0, bool is_loaded = false, bool is_modified = false) :
+        offset(start), bytes(size), loaded(is_loaded), modified(is_modified) {}
+
+    off_t next() const
+    {
+        return (offset + bytes);
+    }
+    off_t end() const
+    {
+        return (0 < bytes ? offset + bytes - 1 : 0);
+    }
+};
+typedef std::vector<struct fdpage> fdpage_list_t;
+
+//------------------------------------------------
+// Class PageList
+//------------------------------------------------
+class CacheFileStat;
+class FdEntity;
+
+// cppcheck-suppress copyCtorAndEqOperator
+class PageList
+{
+    friend class FdEntity;    // only one method access directly pages.
+
+    private:
+        fdpage_list_t pages;
+        bool          is_shrink;    // [NOTE] true if it has been shrunk even once
+
+    public:
+        enum class page_status : int8_t {
+            NOT_LOAD_MODIFIED = 0,
+            LOADED,
+            MODIFIED,
+            LOAD_MODIFIED
+        };
+
+    private:
+        static bool GetSparseFilePages(int fd, size_t file_size, fdpage_list_t& sparse_list);
+        static bool CheckZeroAreaInFile(int fd, off_t start, size_t bytes);
+        static bool CheckAreaInSparseFile(const struct fdpage& checkpage, const fdpage_list_t& sparse_list, int fd, fdpage_list_t& err_area_list, fdpage_list_t& warn_area_list);
+
+        void Clear();
+        bool Parse(off_t new_pos);
+        bool Serialize(CacheFileStat& file, ino_t inode);
+
+    public:
+        static void FreeList(fdpage_list_t& list);
+
+        explicit PageList(off_t size = 0, bool is_loaded = false, bool is_modified = false, bool shrunk = false);
+        PageList(const PageList&) = delete;
+        PageList(PageList&&) = delete;
+        PageList& operator=(const PageList&) = delete;
+        PageList& operator=(PageList&&) = delete;
+        ~PageList();
+
+        bool Init(off_t size, bool is_loaded, bool is_modified);
+        off_t Size() const;
+        bool Resize(off_t size, bool is_loaded, bool is_modified);
+
+        bool IsPageLoaded(off_t start = 0, off_t size = 0) const;                  // size=0 is checking to end of list
+        bool SetPageLoadedStatus(off_t start, off_t size, PageList::page_status pstatus = page_status::LOADED, bool is_compress = true);
+        bool FindUnloadedPage(off_t start, off_t& resstart, off_t& ressize) const;
+        off_t GetTotalUnloadedPageSize(off_t start = 0, off_t size = 0, off_t limit_size = 0) const;   // size=0 is checking to end of list
+        size_t GetUnloadedPages(fdpage_list_t& unloaded_list, off_t start = 0, off_t size = 0) const;  // size=0 is checking to end of list
+        bool GetPageListsForMultipartUpload(fdpage_list_t& dlpages, fdpage_list_t& mixuppages, off_t max_partsize);
+        bool GetNoDataPageLists(fdpage_list_t& nodata_pages, off_t start = 0, size_t size = 0);
+
+        off_t BytesModified() const;
+        bool IsModified() const;
+        bool ClearAllModified();
+
+        bool Compress();
+        bool Deserialize(CacheFileStat& file, ino_t inode);
+        void Dump() const;
+        bool CompareSparseFile(int fd, size_t file_size, fdpage_list_t& err_area_list, fdpage_list_t& warn_area_list) const;
+};
+
+#endif // S3FS_FDCACHE_PAGE_H_
+
+/*
+* Local variables:
+* tab-width: 4
+* c-basic-offset: 4
+* End:
+* vim600: expandtab sw=4 ts=4 fdm=marker
+* vim<600: expandtab sw=4 ts=4
+*/
