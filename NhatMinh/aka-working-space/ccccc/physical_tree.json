@@ -1,0 +1,101 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\outlandnish_fw-ghost-drive\\include",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\EmulationMode.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\include\\XboxButtons.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": ".\\outlandnish_fw-ghost-drive\\src",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\src\\GearSensor.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11"
+        },
+        {
+          "path": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

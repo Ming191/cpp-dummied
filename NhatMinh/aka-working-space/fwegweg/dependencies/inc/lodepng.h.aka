@@ -1,0 +1,108 @@
+{
+  "path": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+  "dependency": [
+    {
+      "start": ".\\lvandeve_lodepng\\lodepng",
+      "start-type": "MergedNamespace",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng",
+      "end-type": "NamespaceNode",
+      "type": "NamespaceDependency",
+      "end-md5": "f4a0b41b91647f066ed54b6097553e7e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State",
+      "start-type": "ClassNode",
+      "start-md5": "fc91cb009d769a0061e0f4fcb04acf84",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\LodePNGState",
+      "end-type": "StructNode",
+      "type": "ExtendDependency",
+      "end-md5": "d34df94016714e3b565f6ec3be2722c7"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\lodepng",
+      "start-type": "MergedNamespace",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng",
+      "end-type": "NamespaceNode",
+      "type": "NamespaceDependency",
+      "end-md5": "933834a0d7b73a51f1184113a0cf6559"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\State::State(State const\u0026)",
+      "start-type": "CopyConstructorNode",
+      "start-md5": "cfd7bd94bb34a0570d25c1e1e58adfa9",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "fc91cb009d769a0061e0f4fcb04acf84"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\State::State()",
+      "start-type": "ConstructorNode",
+      "start-md5": "8b34cb6727bfdb455de34be92bf9fb57",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "fc91cb009d769a0061e0f4fcb04acf84"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\State::~State()",
+      "start-type": "DestructorNode",
+      "start-md5": "7e6e61085ea5f70acf84a360638b03ed",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "fc91cb009d769a0061e0f4fcb04acf84"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\State::operator\u003d(State const\u0026)",
+      "start-type": "CopyAssignmentOperatorNode",
+      "start-md5": "3d1641d4c73aa676bcdd616d1207cfaf",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "fc91cb009d769a0061e0f4fcb04acf84"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\pngdetail.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+      "start-type": "HeaderNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

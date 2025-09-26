@@ -1,0 +1,107 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::available()",
+      "start-type": "FunctionNode",
+      "start-md5": "82e3972df766c1d7832e6e0d714b712f",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::available()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "82e3972df766c1d7832e6e0d714b712f"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "1dcfc1a57d0122534e0744f44efe4da5",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateDashboard()",
+      "start-type": "FunctionNode",
+      "start-md5": "43fa737c98d6c9c33ed50e315431240f",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "1dcfc1a57d0122534e0744f44efe4da5"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::read(CAN_FRAME\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c8080008ad7ba6aa21585e0c56ceb545",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::read(CAN_FRAME\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c8080008ad7ba6aa21585e0c56ceb545"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::CANRaw(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "8c007acbfda71ecdd9c36b0c7126c171",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\GearSensor::process()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c4b7b42d18bb8875c1f4f45a3a574c1",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1348baad84ad618bf754a9f89edb8d3a"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+      "start-type": "FunctionNode",
+      "start-md5": "51c677b3fc94a903ea0422f3bdb9d1e1",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\GearSensor::process()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9c4b7b42d18bb8875c1f4f45a3a574c1"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

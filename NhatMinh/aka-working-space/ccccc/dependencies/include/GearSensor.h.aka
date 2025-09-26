@@ -1,0 +1,60 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor\\getGear()",
+      "start-type": "FunctionNode",
+      "start-md5": "dcbd2c08fd3339d3ae18ef2a5b2b7bd4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1348baad84ad618bf754a9f89edb8d3a"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\GearSensor::process()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c4b7b42d18bb8875c1f4f45a3a574c1",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1348baad84ad618bf754a9f89edb8d3a"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+      "start-type": "FunctionNode",
+      "start-md5": "51c677b3fc94a903ea0422f3bdb9d1e1",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor\\getGear()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "dcbd2c08fd3339d3ae18ef2a5b2b7bd4"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

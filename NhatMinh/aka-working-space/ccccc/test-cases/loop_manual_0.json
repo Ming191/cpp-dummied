@@ -1,0 +1,336 @@
+{
+  "name": "loop_manual_0",
+  "status": "N/A",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\ccccc\\\\test-cases\\loop_manual_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\ccccc\\\\debugger\\\\breakpoints\\loop_manual_0.br.json",
+  "creationDate": "2025-09-27T01:27:03.180896600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "main.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.RootDataNode",
+            "name": "SBF",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+            "level": "SBF",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "updatePose(Pose)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "void",
+                "realType": "void",
+                "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+                "children": [
+                  {
+                    "type": "com.dse.parser.object.NumberOfCallNode",
+                    "name": "Number of calls",
+                    "virtual_name": "Number of calls",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "processTelemetry(std::string)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "void",
+                "realType": "void",
+                "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\processTelemetry(std::string)",
+                "children": [
+                  {
+                    "type": "com.dse.parser.object.NumberOfCallNode",
+                    "name": "Number of calls",
+                    "virtual_name": "Number of calls",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "gearSensor",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_gearSensor",
+                "dataType": "GearSensor",
+                "realType": "GearSensor",
+                "external": false,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\gearSensor",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor"
+              },
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "lastPose",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_lastPose",
+                "dataType": "Pose",
+                "realType": "Pose",
+                "external": false,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\lastPose",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h\\Pose"
+              },
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "can",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_can",
+                "dataType": "CANProcessor",
+                "realType": "CANProcessor",
+                "external": false,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\can",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor"
+              },
+              {
+                "type": "com.dse.testdata.object.EnumDataNode",
+                "name": "lastGear",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_lastGear",
+                "dataType": "::Gear",
+                "realType": "Gear",
+                "external": false,
+                "valueIsSet": false,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\lastGear",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h\\Gear"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "can",
+                "virtual_name": "can",
+                "dataType": "CANProcessor",
+                "realType": "CANProcessor",
+                "external": true,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\can",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor"
+              },
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "gearSensor",
+                "virtual_name": "gearSensor",
+                "dataType": "GearSensor",
+                "realType": "GearSensor",
+                "external": true,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\gearSensor",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor"
+              },
+              {
+                "type": "com.dse.testdata.object.EnumDataNode",
+                "name": "lastGear",
+                "virtual_name": "lastGear",
+                "dataType": "::Gear",
+                "realType": "Gear",
+                "external": true,
+                "valueIsSet": false,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\lastGear",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h\\Gear"
+              },
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "lastPose",
+                "virtual_name": "lastPose",
+                "dataType": "Pose",
+                "realType": "Pose",
+                "external": true,
+                "correspondingVar": ".\\outlandnish_fw-ghost-drive\\include\\main.h\\lastPose",
+                "correspondingType": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h\\Pose"
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "loop()",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+                "level": "STATIC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "CANProcessor.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "updatePose",
+          "process",
+          "getGear",
+          "newVehicleData"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "dummy.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "GearSensor::process()",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\GearSensor::process()"
+          }
+        ],
+        "filteredCalledFunctions": [
+          "updatePose",
+          "process",
+          "getGear",
+          "newVehicleData"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+        "level": "STUB",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "GearSensor.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "getGear()",
+                "virtual_name": "NON_VALUE",
+                "dataType": "Gear",
+                "realType": "Gear",
+                "functionNode": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor\\getGear()"
+              }
+            ],
+            "filteredCalledFunctions": [
+              "updatePose",
+              "process",
+              "getGear",
+              "newVehicleData"
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "Joystick.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h",
+            "children": [],
+            "filteredCalledFunctions": [
+              "updatePose",
+              "process",
+              "getGear",
+              "newVehicleData"
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "main.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+            "children": [],
+            "filteredCalledFunctions": [
+              "updatePose",
+              "process",
+              "getGear",
+              "newVehicleData"
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "SPI.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+            "children": [],
+            "filteredCalledFunctions": [
+              "updatePose",
+              "process",
+              "getGear",
+              "newVehicleData"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "getGear();",
+      "isSelected": false,
+      "location": 65,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "can.newVehicleData()",
+      "isSelected": false,
+      "location": 123,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "gear !\u003d lastGear",
+      "isSelected": false,
+      "location": 147,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "getGear();",
+      "isSelected": false,
+      "location": 222,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "updatePose();",
+      "isSelected": false,
+      "location": 240,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

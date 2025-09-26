@@ -1,0 +1,41 @@
+{
+  "path": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+  "dependency": [
+    {
+      "start": ".\\lvandeve_lodepng\\lodepng",
+      "start-type": "MergedNamespace",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng_util.h\\lodepng",
+      "end-type": "NamespaceNode",
+      "type": "NamespaceDependency",
+      "end-md5": "1b9a363e6bb0f9164f2518bcb952a2a5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\pngdetail.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+      "start-type": "HeaderNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

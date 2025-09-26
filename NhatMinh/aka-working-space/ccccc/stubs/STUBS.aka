@@ -1,0 +1,53 @@
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\begin(bool= true): .\aka-working-space\ccccc\stubs\Joystick.h.begin.2717.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setXAxis(int): .\aka-working-space\ccccc\stubs\Joystick.h.setXAxis.2815.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\processTelemetry(std::string): .\aka-working-space\ccccc\stubs\main.cpp.processTelemetry.2002.stub
+.\outlandnish_fw-ghost-drive\src\dummy.cpp\GearSensor::process(): .\aka-working-space\ccccc\stubs\dummy.cpp.GearSensor.process.267.stub
+.\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::available(): .\aka-working-space\ccccc\stubs\dummy.cpp.CANRaw.available.115.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setAccelerator(int): .\aka-working-space\ccccc\stubs\Joystick.h.setAccelerator.3229.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\pressButton(unsigned char): .\aka-working-space\ccccc\stubs\Joystick.h.pressButton.3641.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\releaseButton(unsigned char): .\aka-working-space\ccccc\stubs\Joystick.h.releaseButton.3711.stub
+.\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::processFrame(CAN_FRAME&): .\aka-working-space\ccccc\stubs\CANProcessor.cpp.CANProcessor.processFrame.1056.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setRxAxis(int): .\aka-working-space\ccccc\stubs\Joystick.h.setRxAxis.2965.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\end(): .\aka-working-space\ccccc\stubs\Joystick.h.end.2767.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\beginTransaction(SPISettings): .\aka-working-space\ccccc\stubs\SPI.h.beginTransaction.1049.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\endTransaction(): .\aka-working-space\ccccc\stubs\SPI.h.endTransaction.1101.stub
+.\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::updateTelemetry(float,int): .\aka-working-space\ccccc\stubs\CANProcessor.cpp.CANProcessor.updateTelemetry.34.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\setupCAN(): .\aka-working-space\ccccc\stubs\main.cpp.setupCAN.641.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\setDataMode(unsigned char): .\aka-working-space\ccccc\stubs\SPI.h.setDataMode.1367.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setSteering(int): .\aka-working-space\ccccc\stubs\Joystick.h.setSteering.3341.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setThrottle(int): .\aka-working-space\ccccc\stubs\Joystick.h.setThrottle.3173.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\attachInterrupt(): .\aka-working-space\ccccc\stubs\SPI.h.attachInterrupt.1500.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setYAxis(int): .\aka-working-space\ccccc\stubs\Joystick.h.setYAxis.2865.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\sendState(): .\aka-working-space\ccccc\stubs\Joystick.h.sendState.4026.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\detachInterrupt(): .\aka-working-space\ccccc\stubs\SPI.h.detachInterrupt.1531.stub
+.\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::read(CAN_FRAME&): .\aka-working-space\ccccc\stubs\dummy.cpp.CANRaw.read.144.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setBrake(int): .\aka-working-space\ccccc\stubs\Joystick.h.setBrake.3291.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setZAxis(int): .\aka-working-space\ccccc\stubs\Joystick.h.setZAxis.2915.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\getAutoSendState(): .\aka-working-space\ccccc\stubs\Joystick.h.getAutoSendState.4131.stub
+.\outlandnish_fw-ghost-drive\include\GearSensor.h\GearSensor\getGear(): .\aka-working-space\ccccc\stubs\GearSensor.h.getGear.559.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\transfer(void*,size_t): .\aka-working-space\ccccc\stubs\SPI.h.transfer.1265.stub
+.\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::newVehicleData(): .\aka-working-space\ccccc\stubs\CANProcessor.cpp.CANProcessor.newVehicleData.641.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setButton(unsigned char,unsigned char): .\aka-working-space\ccccc\stubs\Joystick.h.setButton.3428.stub
+.\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::sendFrame(CAN_FRAME&): .\aka-working-space\ccccc\stubs\dummy.cpp.CANRaw.sendFrame.70.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\transfer16(unsigned short): .\aka-working-space\ccccc\stubs\SPI.h.transfer16.1209.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\setBitOrder(unsigned char): .\aka-working-space\ccccc\stubs\SPI.h.setBitOrder.1318.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\setupPotentiometers(): .\aka-working-space\ccccc\stubs\main.cpp.setupPotentiometers.590.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\end(): .\aka-working-space\ccccc\stubs\SPI.h.end.1024.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\setupLightsAndButtons(): .\aka-working-space\ccccc\stubs\main.cpp.setupLightsAndButtons.520.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setRyAxis(int): .\aka-working-space\ccccc\stubs\Joystick.h.setRyAxis.3017.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setHatSwitch(int,int): .\aka-working-space\ccccc\stubs\Joystick.h.setHatSwitch.3818.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\transfer(unsigned char): .\aka-working-space\ccccc\stubs\SPI.h.transfer.1146.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose): .\aka-working-space\ccccc\stubs\main.cpp.updatePose.665.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\setupJoystick(): .\aka-working-space\ccccc\stubs\main.cpp.setupJoystick.559.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\begin(): .\aka-working-space\ccccc\stubs\SPI.h.begin.1003.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\toggleEmulationMode(): .\aka-working-space\ccccc\stubs\main.cpp.toggleEmulationMode.1787.stub
+.\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::checkBus(CANRaw*): .\aka-working-space\ccccc\stubs\CANProcessor.cpp.CANProcessor.checkBus.813.stub
+.\outlandnish_fw-ghost-drive\include\main.h\tokenize(std::string const&,char const,std::vector<std::string>&): .\aka-working-space\ccccc\stubs\main.h.tokenize.1093.stub
+.\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::updateDashboard(): .\aka-working-space\ccccc\stubs\CANProcessor.cpp.CANProcessor.updateDashboard.133.stub
+.\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\setClockDivider(unsigned char): .\aka-working-space\ccccc\stubs\SPI.h.setClockDivider.1416.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setRudder(int): .\aka-working-space\ccccc\stubs\Joystick.h.setRudder.3121.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\loop(): .\aka-working-space\ccccc\stubs\main.cpp.loop.49.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\setup(): .\aka-working-space\ccccc\stubs\main.cpp.setup.26.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setRzAxis(int): .\aka-working-space\ccccc\stubs\Joystick.h.setRzAxis.3069.stub
+.\outlandnish_fw-ghost-drive\src\main.cpp\buttonForGear(Gear): .\aka-working-space\ccccc\stubs\main.cpp.buttonForGear.2053.stub
+.\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setAutoSendState(bool): .\aka-working-space\ccccc\stubs\Joystick.h.setAutoSendState.4089.stub

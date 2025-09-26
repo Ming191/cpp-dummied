@@ -1,0 +1,29 @@
+{
+  "path": ".\\lvandeve_lodepng\\inc\\SDL.h",
+  "dependency": [
+    {
+      "start": ".\\lvandeve_lodepng\\inc\\SDL.h\\SDL_GetTicks()",
+      "start-type": "FunctionNode",
+      "start-md5": "c00f25b139654c7680dbd6ac3c0989d1",
+      "end": ".\\lvandeve_lodepng\\inc\\SDL.h",
+      "end-type": "HeaderNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp\\getTime()",
+      "start-type": "FunctionNode",
+      "start-md5": "d2a43e055a1f7259fdb22ca0c1c32f8c",
+      "end": ".\\lvandeve_lodepng\\inc\\SDL.h\\SDL_GetTicks()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c00f25b139654c7680dbd6ac3c0989d1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\SDL.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

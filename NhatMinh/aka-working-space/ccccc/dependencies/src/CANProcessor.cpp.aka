@@ -1,0 +1,102 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::newVehicleData()",
+      "start-type": "FunctionNode",
+      "start-md5": "22600251402fb6b2283783559c20f7bf",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::newVehicleData()",
+      "start-type": "FunctionNode",
+      "start-md5": "22600251402fb6b2283783559c20f7bf",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "79d89f76331e224fa5cd185d8311848c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateDashboard()",
+      "start-type": "FunctionNode",
+      "start-md5": "43fa737c98d6c9c33ed50e315431240f",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateDashboard()",
+      "start-type": "FunctionNode",
+      "start-md5": "43fa737c98d6c9c33ed50e315431240f",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "1dcfc1a57d0122534e0744f44efe4da5"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateTelemetry(float,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "3f4af51bbb60ad0db9f92fbeb167227e",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::available()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "82e3972df766c1d7832e6e0d714b712f"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::read(CAN_FRAME\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c8080008ad7ba6aa21585e0c56ceb545"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "aca9d9ba0fe13ccb266b388558902d6c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "aca9d9ba0fe13ccb266b388558902d6c",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

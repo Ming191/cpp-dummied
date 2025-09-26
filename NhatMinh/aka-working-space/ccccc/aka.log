@@ -1,0 +1,1038 @@
+2025-09-27 01:25:53 DEBUG BaseController:356 - [JavaFX Application Thread] Build the environment
+2025-09-27 01:25:53 DEBUG MenuBarController:1541 - [JavaFX Application Thread] Refresh menu bar
+2025-09-27 01:25:53 DEBUG MenuBarController:1548 - [JavaFX Application Thread] is active multi selection = false
+2025-09-27 01:25:53 INFO  DependencyGraphBuilder:44 - [Thread-3] Start building dependency graph from chosen UUTs and SBFs
+2025-09-27 01:25:53 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\XboxButtons.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\EmulationMode.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\EmulationMode.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\XboxButtons.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:106 - [Thread-3] Generate included directories for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\GearSensor.cpp
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp
+2025-09-27 01:25:54 INFO  DependencyGraphBuilder:112 - [Thread-3] Finish building dependency graph in 456 ms
+2025-09-27 01:25:54 DEBUG CompileProjectTask:162 - [Thread-3] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp
+2025-09-27 01:25:54 DEBUG Compiler:117 - [Thread-3] Compilation of .\outlandnish_fw-ghost-drive\src\CANProcessor.cpp: g++ -c -std=gnu++14 -w ".\outlandnish_fw-ghost-drive\src\CANProcessor.cpp" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\user_code\\environment" -o"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\src\CANProcessor.akaignore.cpp.out"
+2025-09-27 01:25:54 DEBUG CompileProjectTask:162 - [Thread-3] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp
+2025-09-27 01:25:54 DEBUG Compiler:117 - [Thread-3] Compilation of .\outlandnish_fw-ghost-drive\src\dummy.cpp: g++ -c -std=gnu++14 -w ".\outlandnish_fw-ghost-drive\src\dummy.cpp" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\user_code\\environment" -o"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\src\dummy.akaignore.cpp.out"
+2025-09-27 01:25:54 DEBUG CompileProjectTask:162 - [Thread-3] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\GearSensor.cpp
+2025-09-27 01:25:54 DEBUG Compiler:117 - [Thread-3] Compilation of .\outlandnish_fw-ghost-drive\src\GearSensor.cpp: g++ -c -std=gnu++14 -w ".\outlandnish_fw-ghost-drive\src\GearSensor.cpp" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\user_code\\environment" -o"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\src\GearSensor.akaignore.cpp.out"
+2025-09-27 01:25:54 DEBUG CompileProjectTask:162 - [Thread-3] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp
+2025-09-27 01:25:55 DEBUG Compiler:117 - [Thread-3] Compilation of .\outlandnish_fw-ghost-drive\src\main.cpp: g++ -c -std=gnu++14 -w ".\outlandnish_fw-ghost-drive\src\main.cpp" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\include" -I"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\user_code\\environment" -o"E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\instruments\src\main.akaignore.cpp.out"
+2025-09-27 01:25:55 DEBUG CompileProjectTask:184 - [Thread-3] Linking source code file to create an executable file
+2025-09-27 01:25:55 DEBUG CompileProjectTask:210 - [Thread-3] Linking command: g++ -std=gnu++14 -w ".\\aka-working-space\\ccccc\\instruments\src\CANProcessor.akaignore.cpp.out" ".\\aka-working-space\\ccccc\\instruments\src\dummy.akaignore.cpp.out" ".\\aka-working-space\\ccccc\\instruments\src\GearSensor.akaignore.cpp.out" ".\\aka-working-space\\ccccc\\instruments\src\main.akaignore.cpp.out" -o".\outlandnish_fw-ghost-drive\program.exe"
+2025-09-27 01:26:14 DEBUG ProjectTreeExpandTask:160 - [Thread-4] Start expanding the initial tree down to method level
+2025-09-27 01:26:14 DEBUG TypedefAndAliasResolver:94 - [Thread-4] Found 0 typedefs and aliases
+2025-09-27 01:26:14 INFO  TypedefAndAliasResolver:114 - [Thread-4] Loading typedefs and aliases costs 0ms
+2025-09-27 01:26:14 DEBUG ProjectParser:124 - [Thread-4] Expand project tree up to method level
+2025-09-27 01:26:14 DEBUG ProjectParser:310 - [Thread-4] Get project translation unit
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1640769796 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1502720280 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1127111999 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1640769796 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1127111999 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1502720280 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 844553486 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 61088951 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 52472286 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 844553486 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 61088951 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 52472286 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 905119273 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 177514079 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1689738499 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1689738499 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1251097966 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 177514079 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 557096927 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 557096927 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 846048478 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 846048478 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1604228943 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1604228943 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 79476895 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 79476895 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 32703920 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of due_can.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 905119273 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 32703920 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1579635212 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1436823971 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of due_can.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of Gear.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1436823971 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1579635212 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 240838421 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 341419437 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of CANProcessor.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of Pose.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1251097966 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 2108604678 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of CANProcessor.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 341419437 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 788058426 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 240838421 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of CANProcessor.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1346327137 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of CANProcessor.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 788058426 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1346327137 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 829017918 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 16902790 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of CANProcessor.cpp
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of CANProcessor.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 2108604678 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1169942182 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of SPI.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 829017918 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 16902790 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 567517318 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1114193159 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of SPI.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of SPI.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1114193159 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1754504139 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of SPI.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1754504139 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 1669896690 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of SPI.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 1669896690 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 2116238444 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of GearSensor.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1169942182 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 2116238444 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 252458821 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 2106093644 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 252458821 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 118747229 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 2106093644 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1622441103 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1622441103 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 118747229 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1585478341 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 811124815 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 567517318 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 684807937 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1585478341 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1807881872 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 684807937 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 811124815 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of dummy.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 956366865 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-3] Expand element ID 884150621 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of CANProcessor.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-3] Traversing AST of Joystick.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1807881872 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 2113304064 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\XboxButtons.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of XboxButtons.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 2113304064 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\XboxButtons.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 101845673 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\EmulationMode.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of EmulationMode.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 101845673 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\EmulationMode.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 201679545 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 201679545 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 687102571 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 956366865 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1427110416 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 687102571 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1677389851 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1427110416 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1677389851 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1154307703 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1323330439 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1154307703 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1323330439 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1687541553 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1356564880 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1687541553 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1356564880 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 2114654994 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 863691527 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 2114654994 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 863691527 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 2040305158 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1971787692 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 2040305158 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1971787692 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1404176781 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 926198311 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1404176781 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 926198311 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 704980577 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1735552762 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 704980577 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 617610744 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1735552762 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 909643476 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 617610744 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 445102147 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.h
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 909643476 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1824480105 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1824480105 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 842710267 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 842710267 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 617139654 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 617139654 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 2025052084 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 445102147 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 803315410 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 2025052084 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 803315410 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 1222324913 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1875057747 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 1222324913 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 2115827104 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 2115827104 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1875057747 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-1] Expand element ID 802588954 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:355 - [pool-11-thread-2] Expand element ID 1530240997 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-1] Traversing AST of main.cpp
+2025-09-27 01:26:20 INFO  SourcecodeFileParser:68 - [pool-11-thread-2] Traversing AST of main.cpp
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-2] Finish expanding 1530240997 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-1] Finish expanding 802588954 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp to method level
+2025-09-27 01:26:20 DEBUG ProjectParser:357 - [pool-11-thread-3] Finish expanding 884150621 of E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h to method level
+2025-09-27 01:26:20 INFO  ProjectParser:130 - [Thread-4] Finish expanding in 6576 ms
+2025-09-27 01:26:20 DEBUG ProjectParser:124 - [Thread-4] Generate dependency from cpp to header
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-3] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-2] Found an include dependency: [IncludeHeaderDependency]:	[CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp -> [CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-2] Found an include dependency: [IncludeHeaderDependency]:	[CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp -> [CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-3] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-2] Found an include dependency: [IncludeHeaderDependency]:	[CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp -> [CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-3] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-3] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\XboxButtons.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-2] Found an include dependency: [IncludeHeaderDependency]:	[CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp -> [CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-3] Found an include dependency: [IncludeHeaderDependency]:	[CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp -> [CppFileNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\EmulationMode.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-2] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h
+2025-09-27 01:26:20 DEBUG IncludeHeaderDependencyGeneration:95 - [pool-11-thread-1] Found an include dependency: [IncludeHeaderDependency]:	[HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h -> [HeaderNode] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h
+2025-09-27 01:26:20 INFO  ProjectParser:130 - [Thread-4] Finish generating dependency in 22 ms
+2025-09-27 01:26:20 DEBUG ProjectParser:124 - [Thread-4] Merge namespaces
+2025-09-27 01:26:20 INFO  ProjectParser:130 - [Thread-4] Finish merging in 4 ms
+2025-09-27 01:26:20 INFO  SQLiteInstance:33 - [Thread-4] Connection to SQLite has been established.
+2025-09-27 01:26:20 INFO  ProjectNodesStorage:41 - [Thread-4] Connect to database AKA_DB_outlandnish_fw-ghost-drive.db successfully in 217 ms
+2025-09-27 01:26:20 DEBUG ProjectNodesStorage:98 - [Thread-4] Create type table
+2025-09-27 01:26:21 DEBUG ProjectNodesStorage:100 - [Thread-4] Create sourcecode table
+2025-09-27 01:26:21 DEBUG ProjectNodesStorage:102 - [Thread-4] Create function table
+2025-09-27 01:26:21 DEBUG ProjectNodesStorage:104 - [Thread-4] Create external variable table
+2025-09-27 01:26:21 DEBUG ProjectNodesStorage:44 - [Thread-4] Start inserting data into database
+2025-09-27 01:26:23 INFO  ProjectNodesStorage:58 - [Thread-4] Finish inserting types in 1831 ms
+2025-09-27 01:26:32 INFO  ProjectNodesStorage:71 - [Thread-4] Finish inserting functions in 9476 ms
+2025-09-27 01:26:34 INFO  ProjectNodesStorage:80 - [Thread-4] Finish inserting sourcecode files in 1530 ms
+2025-09-27 01:26:36 INFO  ProjectNodesStorage:93 - [Thread-4] Finish inserting external variables in 1891 ms
+2025-09-27 01:26:36 DEBUG ProjectNodesStorage:94 - [Thread-4] Finish inserting data into database
+2025-09-27 01:26:36 DEBUG ProjectParser:124 - [Thread-4] Find relations between prototypes and definitions
+2025-09-27 01:26:36 INFO  ProjectParser:130 - [Thread-4] Finish finding in 5 ms
+2025-09-27 01:26:36 DEBUG ProjectParser:124 - [Thread-4] Generate extended dependency
+2025-09-27 01:26:36 INFO  ProjectParser:130 - [Thread-4] Finish generating in 3 ms
+2025-09-27 01:26:36 DEBUG ProjectParser:124 - [Thread-4] Reconstruct parent
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-1] Found 1 rows in table type in storage for CANProcessor
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-3] Found 1 rows in table type in storage for CANProcessor
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-2] Found 1 rows in table type in storage for CANProcessor
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-3] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-2] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-3] Level 2: Get the source code file
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-2] Level 2: Get the source code file
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-3] Found 1 rows in table type in storage for CANRaw
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-3] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-3] Level 2: Get the source code file
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-1] Found 1 rows in table type in storage for CANProcessor
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-2] Found 1 rows in table type in storage for CANProcessor
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-2] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-2] Level 2: Get the source code file
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-3] Found 1 rows in table type in storage for CANRaw
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-1] Found 1 rows in table type in storage for CANRaw
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-3] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-2] Found 1 rows in table type in storage for CANRaw
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-3] Level 2: Get the source code file
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-2] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-2] Level 2: Get the source code file
+2025-09-27 01:26:36 INFO  SQLiteInstance:137 - [pool-11-thread-1] Found 1 rows in table type in storage for GearSensor
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:181 - [pool-11-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:36 DEBUG VariableSearchingSpace:191 - [pool-11-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:36 INFO  ProjectParser:130 - [Thread-4] Finish reconstructing in 32 ms
+2025-09-27 01:26:36 DEBUG TypedefAndAliasResolver:94 - [Thread-4] Found 6 typedefs and aliases
+2025-09-27 01:26:36 INFO  TypedefAndAliasResolver:114 - [Thread-4] Loading typedefs and aliases costs 1ms
+2025-09-27 01:26:36 DEBUG ProjectParser:124 - [Thread-4] Handle undefined symbols and references
+2025-09-27 01:26:36 INFO  Compiler:364 - [Thread-4] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp gave this result: 
+
+2025-09-27 01:26:36 INFO  Compiler:364 - [Thread-4] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp gave this result: 
+
+2025-09-27 01:26:36 INFO  Compiler:364 - [Thread-4] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\GearSensor.cpp gave this result: 
+
+2025-09-27 01:26:37 INFO  Compiler:364 - [Thread-4] Compiling E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp gave this result: 
+
+2025-09-27 01:26:37 INFO  Compiler:368 - [Thread-4] List of undefined symbols: 
+ 
+__gxx_personality_seh0 U         
+_Unwind_Resume U         
+operator delete(void*, unsigned long long) U         
+operator new(unsigned long long) U         
+std::__throw_bad_alloc() U         
+std::__throw_length_error(char const*) U         
+std::__throw_out_of_range_fmt(char const*, ...) U         
+std::__throw_bad_array_new_length() U         
+memchr U         
+memcpy U         
+
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-11-thread-1] Found 0 rows in table function in storage for *operator delete*
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-11-thread-3] Found 0 rows in table function in storage for *__gxx_personality_seh0*
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-11-thread-2] Found 0 rows in table function in storage for *_Unwind_Resume*
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-11-thread-1] Found 0 rows in table function in storage for *operator new*
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-11-thread-3] Found 0 rows in table function in storage for *memcpy*
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-11-thread-2] Found 0 rows in table function in storage for *memchr*
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish handling in 1025 ms
+2025-09-27 01:26:37 DEBUG ProjectTreeExpandTask:170 - [Thread-4] Finish expanding the initial tree down to method level
+2025-09-27 01:26:37 DEBUG ProjectTreeExpandTask:172 - [Thread-4] Load stub library from file
+2025-09-27 01:26:37 DEBUG ProjectParser:88 - [Thread-4] Ignore folders: []
+2025-09-27 01:26:37 DEBUG ProjectParser:90 - [Thread-4] Loading the project E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc\stubs\libraries
+2025-09-27 01:26:37 DEBUG ProjectLoader:125 - [Thread-4] Loading E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc\stubs\libraries
+2025-09-27 01:26:37 DEBUG ProjectParser:92 - [Thread-4] Loaded the project E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc\stubs\libraries successfully
+2025-09-27 01:26:37 DEBUG TypedefAndAliasResolver:94 - [Thread-4] Found 6 typedefs and aliases
+2025-09-27 01:26:37 INFO  TypedefAndAliasResolver:114 - [Thread-4] Loading typedefs and aliases costs 0ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Expand project tree up to method level
+2025-09-27 01:26:37 DEBUG ProjectParser:310 - [Thread-4] Get project translation unit
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish expanding in 160 ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Generate dependency from cpp to header
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish generating dependency in 0 ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Merge namespaces
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish merging in 1 ms
+2025-09-27 01:26:37 INFO  SQLiteInstance:33 - [Thread-4] Connection to SQLite has been established.
+2025-09-27 01:26:37 INFO  ProjectNodesStorage:41 - [Thread-4] Connect to database AKA_DB_libraries.db successfully in 2 ms
+2025-09-27 01:26:37 DEBUG ProjectNodesStorage:98 - [Thread-4] Create type table
+2025-09-27 01:26:37 DEBUG ProjectNodesStorage:100 - [Thread-4] Create sourcecode table
+2025-09-27 01:26:37 DEBUG ProjectNodesStorage:102 - [Thread-4] Create function table
+2025-09-27 01:26:37 DEBUG ProjectNodesStorage:104 - [Thread-4] Create external variable table
+2025-09-27 01:26:37 DEBUG ProjectNodesStorage:44 - [Thread-4] Start inserting data into database
+2025-09-27 01:26:37 INFO  ProjectNodesStorage:58 - [Thread-4] Finish inserting types in 0 ms
+2025-09-27 01:26:37 INFO  ProjectNodesStorage:71 - [Thread-4] Finish inserting functions in 0 ms
+2025-09-27 01:26:37 INFO  ProjectNodesStorage:80 - [Thread-4] Finish inserting sourcecode files in 0 ms
+2025-09-27 01:26:37 INFO  ProjectNodesStorage:93 - [Thread-4] Finish inserting external variables in 0 ms
+2025-09-27 01:26:37 DEBUG ProjectNodesStorage:94 - [Thread-4] Finish inserting data into database
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Find relations between prototypes and definitions
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish finding in 0 ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Generate extended dependency
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish generating in 0 ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Reconstruct parent
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish reconstructing in 0 ms
+2025-09-27 01:26:37 DEBUG TypedefAndAliasResolver:94 - [Thread-4] Found 6 typedefs and aliases
+2025-09-27 01:26:37 INFO  TypedefAndAliasResolver:114 - [Thread-4] Loading typedefs and aliases costs 1ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Handle undefined symbols and references
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish handling in 0 ms
+2025-09-27 01:26:37 DEBUG ProjectTreeExpandTask:177 - [Thread-4] Load data user code physical tree
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Generate function call dependency
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call getGear()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call Joystick_(unsigned char= 0x03,unsigned char= 0x04,unsigned char= ,unsigned char= ,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call begin(bool= true)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call end()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setXAxis(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setYAxis(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setZAxis(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setRxAxis(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setRyAxis(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setRzAxis(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setRudder(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setThrottle(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setAccelerator(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setBrake(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setSteering(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setButton(unsigned char,unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call pressButton(unsigned char)
+2025-09-27 01:26:37 INFO  SQLiteInstance:33 - [pool-30-thread-1] Connection to SQLite has been established.
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *setButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\pressButton(unsigned char) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setButton(unsigned char,unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call releaseButton(unsigned char)
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *setButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\releaseButton(unsigned char) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setButton(unsigned char,unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setHatSwitch(int,int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call sendState()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setAutoSendState(bool)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call getAutoSendState()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call tokenize(std::string const&,char const,std::vector<std::string>&)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 0 rows in table function in storage for *allocator\find*
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG MethodFinder:167 - [pool-30-thread-1] Searching in file scope level
+2025-09-27 01:26:37 DEBUG MethodFinder:197 - [pool-30-thread-1] Searching in related space
+2025-09-27 01:26:37 DEBUG MethodFinder:209 - [pool-30-thread-1] Searching in outsource space
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 0 rows in table function in storage for *allocator\push_back*
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG MethodFinder:167 - [pool-30-thread-1] Searching in file scope level
+2025-09-27 01:26:37 DEBUG MethodFinder:197 - [pool-30-thread-1] Searching in related space
+2025-09-27 01:26:37 DEBUG MethodFinder:209 - [pool-30-thread-1] Searching in outsource space
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 0 rows in table function in storage for *allocator\substr*
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG MethodFinder:167 - [pool-30-thread-1] Searching in file scope level
+2025-09-27 01:26:37 DEBUG MethodFinder:197 - [pool-30-thread-1] Searching in related space
+2025-09-27 01:26:37 DEBUG MethodFinder:209 - [pool-30-thread-1] Searching in outsource space
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 0 rows in table function in storage for *allocator\push_back*
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG MethodFinder:167 - [pool-30-thread-1] Searching in file scope level
+2025-09-27 01:26:37 DEBUG MethodFinder:197 - [pool-30-thread-1] Searching in related space
+2025-09-27 01:26:37 DEBUG MethodFinder:209 - [pool-30-thread-1] Searching in outsource space
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 0 rows in table function in storage for *allocator\substr*
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG MethodFinder:167 - [pool-30-thread-1] Searching in file scope level
+2025-09-27 01:26:37 DEBUG MethodFinder:197 - [pool-30-thread-1] Searching in related space
+2025-09-27 01:26:37 DEBUG MethodFinder:209 - [pool-30-thread-1] Searching in outsource space
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call SPISettings(unsigned long,unsigned char,unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call SPISettings()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call begin()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call end()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call beginTransaction(SPISettings)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call endTransaction()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call transfer(unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call transfer16(unsigned short)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call transfer(void*,size_t)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setBitOrder(unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setDataMode(unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setClockDivider(unsigned char)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call attachInterrupt()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call detachInterrupt()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANProcessor::newVehicleData()
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *checkBus*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::newVehicleData() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::checkBus(CANRaw*)
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *checkBus*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::newVehicleData() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::checkBus(CANRaw*)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANProcessor::updateDashboard()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *CANRaw\sendFrame*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::updateDashboard() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::sendFrame(CAN_FRAME&)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *CANRaw\sendFrame*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::updateDashboard() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::sendFrame(CAN_FRAME&)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANProcessor::updateTelemetry(float,int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANProcessor::checkBus(CANRaw*)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *CANRaw\available*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::checkBus(CANRaw*) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::available()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *CANRaw\read*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::checkBus(CANRaw*) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp\CANRaw::read(CAN_FRAME&)
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *processFrame*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::checkBus(CANRaw*) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp\CANProcessor::processFrame(CAN_FRAME&)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANProcessor::processFrame(CAN_FRAME&)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANRaw::available()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANRaw::sendFrame(CAN_FRAME&)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANRaw::read(CAN_FRAME&)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call CANRaw::CANRaw(int)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call GearSensor::process()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setup()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call loop()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG MethodFinder:273 - [pool-30-thread-1] Multiple structure node found GearSensor
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *GearSensor\process*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\loop() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp\GearSensor::process()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG MethodFinder:273 - [pool-30-thread-1] Multiple structure node found GearSensor
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *GearSensor\getGear*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\loop() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h\GearSensor\getGear()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *CANProcessor\newVehicleData*
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG MethodFinder:167 - [pool-30-thread-1] Searching in file scope level
+2025-09-27 01:26:37 DEBUG MethodFinder:197 - [pool-30-thread-1] Searching in related space
+2025-09-27 01:26:37 DEBUG MethodFinder:209 - [pool-30-thread-1] Searching in outsource space
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG MethodFinder:273 - [pool-30-thread-1] Multiple structure node found GearSensor
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *GearSensor\getGear*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\loop() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h\GearSensor\getGear()
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *updatePose*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\loop() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setupLightsAndButtons()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setupJoystick()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setupPotentiometers()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *SPIClass\begin*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\setupPotentiometers() -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h\SPIClass\begin()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call setupCAN()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call toggleEmulationMode()
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call updatePose(Pose)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\setXAxis*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setXAxis(int)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\setYAxis*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setYAxis(int)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\setZAxis*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\setZAxis(int)
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *buttonForGear*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\buttonForGear(Gear)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\releaseButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\releaseButton(unsigned char)
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 2 rows in table function in storage for *buttonForGear*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\buttonForGear(Gear)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\pressButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\pressButton(unsigned char)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\pressButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\pressButton(unsigned char)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\releaseButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\releaseButton(unsigned char)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\pressButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\pressButton(unsigned char)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\releaseButton*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\releaseButton(unsigned char)
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 INFO  SQLiteInstance:137 - [pool-30-thread-1] Found 1 rows in table function in storage for *Joystick_\sendState*
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:110 - [pool-30-thread-1] Found a function call dependency: E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\updatePose(Pose) -> E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h\Joystick_\sendState()
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:181 - [pool-30-thread-1] Level 1: Get all current class/struct/namespace
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:191 - [pool-30-thread-1] Level 2: Get the source code file
+2025-09-27 01:26:37 DEBUG VariableSearchingSpace:236 - [pool-30-thread-1] Level 3: Get all included files defined by users
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call buttonForGear(Gear)
+2025-09-27 01:26:37 DEBUG FunctionCallDependencyGeneration:44 - [pool-30-thread-1] Start dependency generation for function call processTelemetry(std::string)
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish generating in 95 ms
+2025-09-27 01:26:37 DEBUG ProjectParser:124 - [Thread-4] Start reconstruct class node
+2025-09-27 01:26:37 INFO  ProjectParser:130 - [Thread-4] Finish reconstructing in 4 ms
+2025-09-27 01:26:37 DEBUG WorkspaceCreation:61 - [Thread-4] Export the physical tree to file E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\physical_tree.json
+2025-09-27 01:26:37 INFO  WorkspaceCreation:75 - [Thread-4] Start exporting the information about every file and dependencies externally
+2025-09-27 01:26:37 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\CANProcessor.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\due_can.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\due_can.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\EmulationMode.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\EmulationMode.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\Gear.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\GearSensor.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Joystick.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\Joystick.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\main.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\Pose.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\SPI.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\SPI.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\XboxButtons.h is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\include\XboxButtons.h.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\CANProcessor.cpp is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\src\CANProcessor.cpp.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\dummy.cpp is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\src\dummy.cpp.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\GearSensor.cpp is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\src\GearSensor.cpp.aka
+2025-09-27 01:26:38 DEBUG WorkspaceCreation:87 - [Thread-4] Dependency of file E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp is stored at E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\dependencies\\src\main.cpp.aka
+2025-09-27 01:26:38 DEBUG BuildNewEnvironmentTask:322 - [Thread-4] Exporting the environment script to file.
+2025-09-27 01:26:38 DEBUG BuildNewEnvironmentTask:341 - [Thread-4] The environment has been exported. Path = E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc.env
+2025-09-27 01:26:38 DEBUG BuildNewEnvironmentTask:210 - [Thread-4] Exporting test script to file
+2025-09-27 01:26:38 DEBUG Environment:252 - [Thread-4] Analyzing E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc.tst ...
+2025-09-27 01:26:38 DEBUG Environment:258 - [Thread-4] Analyzing E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc.tst took 0s
+2025-09-27 01:26:38 DEBUG BuildNewEnvironmentTask:292 - [Thread-4] The test script has been exported. Path = E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc.tst
+2025-09-27 01:26:38 INFO  ProjectClone:1053 - [pool-32-thread-1] Cloning project...
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-37-thread-1] [1/1] Clone & instrument CANRaw
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-34-thread-4] [2/6] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-36-thread-1] [1/1] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-34-thread-1] [1/6] Clone & instrument CANProcessor
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-38-thread-1] [1/4] Clone & instrument GearSensor
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-34-thread-1] [3/6] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-34-thread-2] [4/6] Clone & instrument CANProcessor
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-38-thread-2] [2/4] Clone & instrument getGear()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-34-thread-3] [5/6] Clone & instrument "due_can.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-2] Generate instrument file of due_can.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-38-thread-3] [3/4] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-3] Generate instrument file of EmulationMode.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-38-thread-4] [4/4] Clone & instrument "Gear.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-35-thread-1] [1/1] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-34-thread-5] [6/6] Clone & instrument "due_can.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-4] Generate instrument file of Gear.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-1] Generate instrument file of CANProcessor.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-3] [1/12] Clone & instrument "CANProcessor.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-5] [2/12] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-4] [1/17] Clone & instrument SPIClass
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-2] [3/12] Clone & instrument "SPI.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-2] [1/22] Clone & instrument Joystick_(unsigned char= 0x03,unsigned char= 0x04,unsigned char= ,unsigned char= ,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-3] [2/22] Clone & instrument begin(bool= true)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-41-thread-1] [1/2] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-5] [4/12] Clone & instrument "XboxButtons.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-4] [2/17] Clone & instrument end()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-4] [3/22] Clone & instrument end()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-3] [5/12] Clone & instrument "EmulationMode.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-2] [3/17] Clone & instrument SPISettings(unsigned long,unsigned char,unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-5] [6/12] Clone & instrument "GearSensor.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-2] [7/12] Clone & instrument "iostream"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-1] [8/12] Clone & instrument tokenize(std::string const&,char const,std::vector<std::string>&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-3] [9/12] Clone & instrument "string"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-5] [4/22] Clone & instrument setXAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-2] [10/12] Clone & instrument "vector"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-1] [4/17] Clone & instrument SPISettings
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-1] [5/17] Clone & instrument beginTransaction(SPISettings)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-5] [11/12] Clone & instrument "algorithm"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-1] [5/22] Clone & instrument Joystick_
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-1] [6/22] Clone & instrument setYAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-41-thread-2] [2/2] Clone & instrument "Gear.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-3] [6/17] Clone & instrument SPISettings()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-39-thread-4] [12/12] Clone & instrument "Joystick.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-4] Generate instrument file of Pose.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-5] [7/17] Clone & instrument begin()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-3] [8/17] Clone & instrument endTransaction()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-43-thread-1] [1/1] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-4] Generate instrument file of XboxButtons.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-2] [9/17] Clone & instrument transfer(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-44-thread-1] [1/6] Clone & instrument CANProcessor::newVehicleData()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-44-thread-4] [3/6] Clone & instrument CANProcessor::checkBus(CANRaw*)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-44-thread-3] [2/6] Clone & instrument CANProcessor::updateTelemetry(float,int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-44-thread-2] [4/6] Clone & instrument CANProcessor::updateDashboard()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-44-thread-5] [5/6] Clone & instrument CANProcessor::processFrame(CAN_FRAME&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-2] [7/22] Clone & instrument setZAxis(int)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-5] Initialize stub code for begin() in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.begin.1003.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-5] [10/17] Clone & instrument transfer16(unsigned short)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-4] Initialize stub code for end() in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.end.1024.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-1] Initialize stub code for beginTransaction(SPISettings) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.beginTransaction.1049.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-3] Initialize stub code for endTransaction() in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.endTransaction.1101.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-1] [12/17] Clone & instrument setBitOrder(unsigned char)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-3] Initialize stub code for begin(bool= true) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.begin.2717.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-4] [11/17] Clone & instrument transfer(void*,size_t)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-3] [8/22] Clone & instrument setRxAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-3] [13/17] Clone & instrument setDataMode(unsigned char)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-44-thread-3] Initialize stub code for CANProcessor::updateTelemetry(float,int) in CANProcessor.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\CANProcessor.cpp.CANProcessor.updateTelemetry.34.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-44-thread-3] [6/6] Clone & instrument "CANProcessor.h"
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-44-thread-2] Initialize stub code for CANProcessor::updateDashboard() in CANProcessor.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\CANProcessor.cpp.CANProcessor.updateDashboard.133.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-44-thread-1] Initialize stub code for CANProcessor::newVehicleData() in CANProcessor.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\CANProcessor.cpp.CANProcessor.newVehicleData.641.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-2] Initialize stub code for transfer(unsigned char) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.transfer.1146.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-38-thread-2] Initialize stub code for getGear() in GearSensor.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\GearSensor.h.getGear.559.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-2] [14/17] Clone & instrument setClockDivider(unsigned char)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-2] Initialize stub code for setZAxis(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setZAxis.2915.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-2] [9/22] Clone & instrument setRyAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-5] Generate instrument file of GearSensor.h successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-5] Initialize stub code for setXAxis(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setXAxis.2815.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-5] [10/22] Clone & instrument setRzAxis(int)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-4] Initialize stub code for end() in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.end.2767.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-39-thread-1] Initialize stub code for tokenize(std::string const&,char const,std::vector<std::string>&) in main.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.h.tokenize.1093.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-1] Initialize stub code for setYAxis(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setYAxis.2865.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-1] [12/22] Clone & instrument setThrottle(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-4] [11/22] Clone & instrument setRudder(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-3] Generate instrument file of main.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-3] [2/8] Clone & instrument CANRaw::read(CAN_FRAME&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-2] [1/8] Clone & instrument CANRaw::sendFrame(CAN_FRAME&)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-3] Generate instrument file of GearSensor.cpp successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-44-thread-4] Initialize stub code for CANProcessor::checkBus(CANRaw*) in CANProcessor.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\CANProcessor.cpp.CANProcessor.checkBus.813.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-4] [4/8] Clone & instrument CANRaw::CANRaw(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-1] [3/8] Clone & instrument CANRaw::available()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-5] [5/8] Clone & instrument GearSensor::process()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-4] [6/8] Clone & instrument "due_can.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-4] [7/8] Clone & instrument "SPI.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-45-thread-4] [8/8] Clone & instrument "GearSensor.h"
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-1] Initialize stub code for setBitOrder(unsigned char) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.setBitOrder.1318.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-1] [15/17] Clone & instrument attachInterrupt()
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-2] Initialize stub code for setClockDivider(unsigned char) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.setClockDivider.1416.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-5] Initialize stub code for transfer16(unsigned short) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.transfer16.1209.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-4] Initialize stub code for transfer(void*,size_t) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.transfer.1265.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-2] [16/17] Clone & instrument detachInterrupt()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-42-thread-5] [17/17] Clone & instrument "cstddef"
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-3] Initialize stub code for setDataMode(unsigned char) in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.setDataMode.1367.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-1] [1/11] Clone & instrument setup()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-2] [2/11] Clone & instrument loop()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-3] [3/11] Clone & instrument setupLightsAndButtons()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-4] [4/11] Clone & instrument setupJoystick()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-5] [5/11] Clone & instrument setupPotentiometers()
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-1] Initialize stub code for setThrottle(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setThrottle.3173.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-2] Initialize stub code for setRyAxis(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setRyAxis.3017.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-2] [14/22] Clone & instrument setBrake(int)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-3] Initialize stub code for setRxAxis(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setRxAxis.2965.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-1] [13/22] Clone & instrument setAccelerator(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-3] [15/22] Clone & instrument setSteering(int)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-4] Initialize stub code for setRudder(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setRudder.3121.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-5] Initialize stub code for setRzAxis(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setRzAxis.3069.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-4] [16/22] Clone & instrument setButton(unsigned char,unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-5] [17/22] Clone & instrument pressButton(unsigned char)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-45-thread-3] Initialize stub code for CANRaw::read(CAN_FRAME&) in dummy.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\dummy.cpp.CANRaw.read.144.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-45-thread-5] Initialize stub code for GearSensor::process() in dummy.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\dummy.cpp.GearSensor.process.267.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-2] Initialize stub code for detachInterrupt() in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.detachInterrupt.1531.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-3] Initialize stub code for setupLightsAndButtons() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.setupLightsAndButtons.520.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-3] [6/11] Clone & instrument setupCAN()
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-45-thread-2] Initialize stub code for CANRaw::sendFrame(CAN_FRAME&) in dummy.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\dummy.cpp.CANRaw.sendFrame.70.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-4] Initialize stub code for setupJoystick() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.setupJoystick.559.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-4] [7/11] Clone & instrument toggleEmulationMode()
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-45-thread-1] Initialize stub code for CANRaw::available() in dummy.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\dummy.cpp.CANRaw.available.115.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-42-thread-1] Initialize stub code for attachInterrupt() in SPI.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\SPI.h.attachInterrupt.1500.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-5] Generate instrument file of dummy.cpp successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-1] Generate instrument file of SPI.h successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-1] Initialize stub code for setup() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.setup.26.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-1] [8/11] Clone & instrument updatePose(Pose)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-5] Initialize stub code for setupPotentiometers() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.setupPotentiometers.590.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-5] [9/11] Clone & instrument buttonForGear(Gear)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-2] Initialize stub code for setBrake(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setBrake.3291.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-2] [18/22] Clone & instrument releaseButton(unsigned char)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-1] Initialize stub code for setAccelerator(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setAccelerator.3229.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-3] Initialize stub code for setSteering(int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setSteering.3341.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-1] [20/22] Clone & instrument sendState()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-3] [19/22] Clone & instrument setHatSwitch(int,int)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-5] Initialize stub code for pressButton(unsigned char) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.pressButton.3641.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-5] [21/22] Clone & instrument setAutoSendState(bool)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-2] Initialize stub code for loop() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.loop.49.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-4] Initialize stub code for setButton(unsigned char,unsigned char) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setButton.3428.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-40-thread-4] [22/22] Clone & instrument getAutoSendState()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-2] [10/11] Clone & instrument processTelemetry(std::string)
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-3] Initialize stub code for setupCAN() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.setupCAN.641.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-47-thread-3] [11/11] Clone & instrument "main.h"
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-5] Initialize stub code for buttonForGear(Gear) in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.buttonForGear.2053.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-2] Initialize stub code for releaseButton(unsigned char) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.releaseButton.3711.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-1] Initialize stub code for sendState() in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.sendState.4026.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-4] Initialize stub code for toggleEmulationMode() in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.toggleEmulationMode.1787.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-5] Initialize stub code for setAutoSendState(bool) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setAutoSendState.4089.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-44-thread-5] Initialize stub code for CANProcessor::processFrame(CAN_FRAME&) in CANProcessor.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\CANProcessor.cpp.CANProcessor.processFrame.1056.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-4] Generate instrument file of CANProcessor.cpp successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-4] Initialize stub code for getAutoSendState() in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.getAutoSendState.4131.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-2] Initialize stub code for processTelemetry(std::string) in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.processTelemetry.2002.stub successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-40-thread-3] Initialize stub code for setHatSwitch(int,int) in Joystick.h to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\Joystick.h.setHatSwitch.3818.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-2] Generate instrument file of Joystick.h successfully
+2025-09-27 01:26:38 DEBUG StubManager:412 - [pool-47-thread-1] Initialize stub code for updatePose(Pose) in main.cpp to E:\\cpp-projects-collection\\NhatMinh\\aka-working-space\\ccccc\\stubs\main.cpp.updatePose.665.stub successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-33-thread-3] Generate instrument file of main.cpp successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:150 - [pool-32-thread-1] Done cloning all source code files!
+2025-09-27 01:26:38 INFO  ProjectClone:1055 - [pool-32-thread-1] Cloning project done. Start cloning for lcov...
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-50-thread-2] [2/6] Clone & instrument CANProcessor
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-50-thread-1] [1/6] Clone & instrument CANProcessor
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-49-thread-1] [1/1] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-50-thread-3] [3/6] Clone & instrument "due_can.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-50-thread-2] [4/6] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-52-thread-1] [1/1] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-51-thread-1] [1/4] Clone & instrument GearSensor
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-50-thread-4] [5/6] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-3] Generate instrument file of EmulationMode.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-4] Generate instrument file of Gear.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-51-thread-2] [2/4] Clone & instrument getGear()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-53-thread-1] [1/1] Clone & instrument CANRaw
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-50-thread-5] [6/6] Clone & instrument "due_can.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-51-thread-3] [3/4] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-2] Generate instrument file of due_can.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-51-thread-4] [4/4] Clone & instrument "Gear.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-1] Generate instrument file of CANProcessor.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-2] [2/22] Clone & instrument Joystick_(unsigned char= 0x03,unsigned char= 0x04,unsigned char= ,unsigned char= ,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-5] [3/22] Clone & instrument setXAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-1] [1/22] Clone & instrument Joystick_
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-2] [4/22] Clone & instrument setYAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-1] [5/22] Clone & instrument setZAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-3] [6/22] Clone & instrument begin(bool= true)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-5] Generate instrument file of GearSensor.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-4] [7/22] Clone & instrument end()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-2] [1/12] Clone & instrument "SPI.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-3] [2/12] Clone & instrument "CANProcessor.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-2] [3/12] Clone & instrument "XboxButtons.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-3] [4/12] Clone & instrument "EmulationMode.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-3] [6/12] Clone & instrument "iostream"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-3] [7/12] Clone & instrument "string"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-2] [5/12] Clone & instrument "GearSensor.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-3] [8/12] Clone & instrument "vector"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-2] [9/12] Clone & instrument "algorithm"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-1] [8/22] Clone & instrument setRxAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-1] [10/12] Clone & instrument tokenize(std::string const&,char const,std::vector<std::string>&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-5] [9/22] Clone & instrument setRyAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-56-thread-1] [1/2] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-4] [12/12] Clone & instrument "Joystick.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-1] [1/17] Clone & instrument SPISettings
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-1] [2/17] Clone & instrument end()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-55-thread-5] [11/12] Clone & instrument "Pose.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-5] [3/17] Clone & instrument begin()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-2] [10/22] Clone & instrument setRzAxis(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-3] [4/17] Clone & instrument SPISettings()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-3] [5/17] Clone & instrument beginTransaction(SPISettings)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-4] [6/17] Clone & instrument SPIClass
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-4] [11/22] Clone & instrument setRudder(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-4] [7/17] Clone & instrument endTransaction()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-3] [12/22] Clone & instrument setThrottle(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-56-thread-2] [2/2] Clone & instrument "Gear.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-2] [8/17] Clone & instrument SPISettings(unsigned long,unsigned char,unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-58-thread-1] [1/1] Clone & instrument "stdint.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-2] [9/17] Clone & instrument transfer(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-3] Generate instrument file of Pose.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-5] Generate instrument file of XboxButtons.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-3] [10/17] Clone & instrument transfer16(unsigned short)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-1] [13/22] Clone & instrument setAccelerator(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-5] [11/17] Clone & instrument transfer(void*,size_t)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-5] [14/22] Clone & instrument setBrake(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-2] [13/17] Clone & instrument setDataMode(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-1] Generate instrument file of main.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-1] [12/17] Clone & instrument setBitOrder(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-2] [15/22] Clone & instrument setSteering(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-59-thread-4] [1/6] Clone & instrument CANProcessor::checkBus(CANRaw*)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-59-thread-1] [2/6] Clone & instrument CANProcessor::newVehicleData()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-59-thread-3] [3/6] Clone & instrument CANProcessor::updateTelemetry(float,int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-59-thread-2] [4/6] Clone & instrument CANProcessor::updateDashboard()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-2] [1/8] Clone & instrument CANRaw::sendFrame(CAN_FRAME&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-4] [14/17] Clone & instrument setClockDivider(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-3] [2/8] Clone & instrument CANRaw::read(CAN_FRAME&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-4] [16/22] Clone & instrument setButton(unsigned char,unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-4] [3/8] Clone & instrument CANRaw::CANRaw(int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-5] [4/8] Clone & instrument GearSensor::process()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-59-thread-5] [5/6] Clone & instrument CANProcessor::processFrame(CAN_FRAME&)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-4] [5/8] Clone & instrument "due_can.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-3] [17/22] Clone & instrument pressButton(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-1] [6/8] Clone & instrument CANRaw::available()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-4] [7/8] Clone & instrument "SPI.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-60-thread-4] [8/8] Clone & instrument "GearSensor.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-1] Generate instrument file of GearSensor.cpp successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-3] [15/17] Clone & instrument attachInterrupt()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-5] [16/17] Clone & instrument detachInterrupt()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-5] [18/22] Clone & instrument releaseButton(unsigned char)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-57-thread-1] [17/17] Clone & instrument "cstddef"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-1] [19/22] Clone & instrument setHatSwitch(int,int)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-1] [1/11] Clone & instrument setup()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-4] [20/22] Clone & instrument sendState()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-59-thread-4] [6/6] Clone & instrument "CANProcessor.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-2] [2/11] Clone & instrument loop()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-2] [21/22] Clone & instrument setAutoSendState(bool)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-3] [4/11] Clone & instrument setupLightsAndButtons()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-4] [5/11] Clone & instrument setupJoystick()
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-3] Generate instrument file of CANProcessor.cpp successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-5] [3/11] Clone & instrument setupPotentiometers()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-54-thread-3] [22/22] Clone & instrument getAutoSendState()
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-5] Generate instrument file of dummy.cpp successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-2] Generate instrument file of SPI.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-1] [7/11] Clone & instrument toggleEmulationMode()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-2] [6/11] Clone & instrument setupCAN()
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-4] [8/11] Clone & instrument updatePose(Pose)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-5] [9/11] Clone & instrument buttonForGear(Gear)
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-4] Generate instrument file of Joystick.h successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-3] [10/11] Clone & instrument processTelemetry(std::string)
+2025-09-27 01:26:38 DEBUG ProjectClone:447 - [pool-62-thread-1] [11/11] Clone & instrument "main.h"
+2025-09-27 01:26:38 DEBUG ProjectClone:176 - [pool-48-thread-1] Generate instrument file of main.cpp successfully
+2025-09-27 01:26:38 DEBUG ProjectClone:150 - [pool-32-thread-1] Done cloning all source code files!
+2025-09-27 01:26:38 INFO  ProjectClone:1057 - [pool-32-thread-1] Cloning for lcov done.
+2025-09-27 01:26:38 DEBUG BaseController:210 - [JavaFX Application Thread] Reset all states in all windows in environment builder
+2025-09-27 01:26:38 DEBUG Environment:252 - [JavaFX Application Thread] Analyzing E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc.tst ...
+2025-09-27 01:26:38 DEBUG Environment:258 - [JavaFX Application Thread] Analyzing E:\cpp-projects-collection\NhatMinh\aka-working-space\ccccc.tst took 0s
+2025-09-27 01:26:39 DEBUG BaseController:473 - [JavaFX Application Thread] Build the environment successfully in 00:00:25
+2025-09-27 01:26:50 DEBUG UIController:66 - [JavaFX Application Thread] Opened source code of CANProcessor::updateDashboard() [FunctionNode] on this tool
+2025-09-27 01:26:53 DEBUG UIController:66 - [JavaFX Application Thread] Opened source code of CANProcessor::updateTelemetry(float,int) [FunctionNode] on this tool
+2025-09-27 01:26:56 DEBUG TypedefAndAliasResolver:94 - [JavaFX Application Thread] Found 6 typedefs and aliases
+2025-09-27 01:26:56 INFO  TypedefAndAliasResolver:114 - [JavaFX Application Thread] Loading typedefs and aliases costs 1ms
+2025-09-27 01:26:57 DEBUG UIController:66 - [JavaFX Application Thread] Opened source code of CANRaw::sendFrame(CAN_FRAME&) [FunctionNode] on this tool
+2025-09-27 01:27:00 DEBUG UIController:66 - [JavaFX Application Thread] Opened source code of setup() [FunctionNode] on this tool
+2025-09-27 01:27:03 DEBUG TestCaseManager:1212 - [Thread-5] Generate name of test case name
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:34 - [Thread-5] generateGlobalSubTree
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:37 - [Thread-5] generateUUTSubTree
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:40 - [Thread-5] generateStubSubTree
+2025-09-27 01:27:03 DEBUG DataTree:38 - [Thread-5] Generate Data Tree
+2025-09-27 01:27:03 DEBUG FunctionCallDependencyGeneration:44 - [Thread-5] Start dependency generation for function call loop()
+2025-09-27 01:27:03 DEBUG FunctionCallDependencyGeneration:56 - [Thread-5] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\loop() is analyzed function call dependency before
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for gearSensor
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for gearSensor
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for can
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 0 rows in table external_variable in storage for gear
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for lastGear
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for can
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 0 rows in table external_variable in storage for pose
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for gearSensor
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 0 rows in table external_variable in storage for updatePose
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 0 rows in table external_variable in storage for pose
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 1 rows in table external_variable in storage for lastPose
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:181 - [Thread-5] Level 1: Get all current class/struct/namespace
+2025-09-27 01:27:03 DEBUG VariableSearchingSpace:191 - [Thread-5] Level 2: Get the source code file
+2025-09-27 01:27:03 INFO  SQLiteInstance:137 - [Thread-5] Found 0 rows in table external_variable in storage for pose
+2025-09-27 01:27:03 DEBUG AbstractInitialTreeGen:144 - [Thread-5] generateGlobalVarBranch
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:34 - [Thread-5] generateGlobalSubTree
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:37 - [Thread-5] generateUUTSubTree
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:40 - [Thread-5] generateStubSubTree
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:73 - [Thread-5] Found 15 global variables in unit
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:83 - [Thread-5] Found 4 global variables used in subprogram
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:56 - [Thread-5] Find type dependency for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h\can
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:57 - [Thread-5] Type "CANProcessor"
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:146 - [Thread-5] The definition of variable is defined in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\CANProcessor.h\CANProcessor
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:56 - [Thread-5] Find type dependency for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h\gearSensor
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:57 - [Thread-5] Type "GearSensor"
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:146 - [Thread-5] The definition of variable is defined in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\GearSensor.h\GearSensor
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:56 - [Thread-5] Find type dependency for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h\lastGear
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:57 - [Thread-5] Type "Gear"
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:146 - [Thread-5] The definition of variable is defined in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Gear.h\Gear
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:56 - [Thread-5] Find type dependency for E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\main.h\lastPose
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:57 - [Thread-5] Type "Pose"
+2025-09-27 01:27:03 DEBUG CTypeDependencyGeneration:146 - [Thread-5] The definition of variable is defined in E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\include\Pose.h\Pose
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:73 - [Thread-5] Found 15 global variables in unit
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:83 - [Thread-5] Found 4 global variables used in subprogram
+2025-09-27 01:27:03 ERROR InitialTreeGen:44 - [Thread-5] Do not support type parameters for void function
+2025-09-27 01:27:03 DEBUG AbstractInitialTreeGen:123 - [Thread-5] generateStaticBranch
+2025-09-27 01:27:03 DEBUG TestCaseManager:132 - [Thread-5] initParameterExpectedOuputs
+2025-09-27 01:27:03 DEBUG TestCaseManager:135 - [Thread-5] initGlobalInputExpOutputMap
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:34 - [Thread-5] generateGlobalSubTree
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:37 - [Thread-5] generateUUTSubTree
+2025-09-27 01:27:03 DEBUG FuncDetailTreeGeneration:40 - [Thread-5] generateStubSubTree
+2025-09-27 01:27:03 DEBUG DataTree:38 - [Thread-5] Generate Data Tree
+2025-09-27 01:27:03 DEBUG FunctionCallDependencyGeneration:44 - [Thread-5] Start dependency generation for function call loop()
+2025-09-27 01:27:03 DEBUG FunctionCallDependencyGeneration:56 - [Thread-5] E:\cpp-projects-collection\NhatMinh\outlandnish_fw-ghost-drive\src\main.cpp\loop() is analyzed function call dependency before
+2025-09-27 01:27:03 DEBUG AbstractInitialTreeGen:144 - [Thread-5] generateGlobalVarBranch
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:73 - [Thread-5] Found 15 global variables in unit
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:83 - [Thread-5] Found 4 global variables used in subprogram
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:73 - [Thread-5] Found 15 global variables in unit
+2025-09-27 01:27:03 DEBUG RelatedExternalVariableDetecter:83 - [Thread-5] Found 4 global variables used in subprogram
+2025-09-27 01:27:03 ERROR InitialTreeGen:44 - [Thread-5] Do not support type parameters for void function
+2025-09-27 01:27:03 DEBUG AbstractInitialTreeGen:123 - [Thread-5] generateStaticBranch
+2025-09-27 01:27:03 DEBUG TestCaseManager:138 - [Thread-5] initExportBasicTestCaseToFile
+2025-09-27 01:27:03 DEBUG TestCaseManager:141 - [Thread-5] initExportBreakpointsToFile
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node can with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node can with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node gearSensor with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node gearSensor with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node lastGear with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node lastGear with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node lastPose with parent GLOBAL
+2025-09-27 01:27:03 DEBUG TestCaseTreeTableController:512 - [JavaFX Application Thread] Checking visible for node lastPose with parent GLOBAL
+2025-09-27 01:27:07 DEBUG ParameterColumnCellFactory:434 - [JavaFX Application Thread] Refreshed the current test case tab
+2025-09-27 01:27:07 ERROR TestCaseDataExporter:575 - [JavaFX Application Thread] Do not support to export the value of node "Number of calls", class = "class com.dse.parser.object.NumberOfCallNode" to json file in this version
+2025-09-27 01:27:07 DEBUG ParameterColumnCellFactory:434 - [JavaFX Application Thread] Refreshed the current test case tab
+2025-09-27 01:27:07 ERROR TestCaseDataExporter:575 - [JavaFX Application Thread] Do not support to export the value of node "Number of calls", class = "class com.dse.parser.object.NumberOfCallNode" to json file in this version
+2025-09-27 01:27:07 ERROR TestCaseDataExporter:575 - [JavaFX Application Thread] Do not support to export the value of node "Number of calls", class = "class com.dse.parser.object.NumberOfCallNode" to json file in this version
+2025-09-27 01:27:09 DEBUG ExpectedOutputColumnCellFactory:85 - [JavaFX Application Thread] Start editing on the cell at line 3
+2025-09-27 01:27:09 DEBUG AbstractTableCell:129 - [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.parser.object.NumberOfCallNode
+2025-09-27 01:27:10 DEBUG ExpectedOutputColumnCellFactory:85 - [JavaFX Application Thread] Start editing on the cell at line 5
+2025-09-27 01:27:10 DEBUG AbstractTableCell:129 - [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.parser.object.NumberOfCallNode
+2025-09-27 01:27:10 DEBUG ExpectedOutputColumnCellFactory:85 - [JavaFX Application Thread] Start editing on the cell at line 5
+2025-09-27 01:27:10 DEBUG AbstractTableCell:129 - [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.parser.object.NumberOfCallNode
+2025-09-27 01:27:10 DEBUG ExpectedOutputColumnCellFactory:85 - [JavaFX Application Thread] Start editing on the cell at line 5
+2025-09-27 01:27:10 DEBUG AbstractTableCell:129 - [JavaFX Application Thread] The type of data node corresponding to the cell: class com.dse.parser.object.NumberOfCallNode

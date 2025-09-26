@@ -1,0 +1,273 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\begin(bool\u003d true)",
+      "start-type": "FunctionNode",
+      "start-md5": "52f78744c01db39a0f75bc183992b683",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setXAxis(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "beeb8038dec24e95438def55b826e86d",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\end()",
+      "start-type": "FunctionNode",
+      "start-md5": "ccd3de05e1ca5968532a29e4b072b1c2",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setYAxis(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "bd163b062fa2eff5cdb93e3251d04403",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setZAxis(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "8f97737e9a135a3dbd4f3f1b1e91c53b",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setRxAxis(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "de6b4857ef6e65e5fb576a7cda44be0b",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setRzAxis(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "3ff8e66a51ab7f00cc0dfb26e2528217",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setRyAxis(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "21ffbbd94fa6bad0375794a4c08c3935",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setRudder(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "8f3f3cf37684d9492de3bf58b8492558",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setThrottle(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "b7e5904b222c3adebc2642e55c64235d",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setAccelerator(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "b5143b6d16395a10df1fd955d47582e2",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setBrake(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d5ba7e6eeb3989951f8940ed8f450c",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\pressButton(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "75aef7c93ee9ba0861ba5edb0c907bd5",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setSteering(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "c8aabcd8424b91b4a8f27d78bd187a4c",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "37f8af64c2cfb0bc58a718fa1ed16ca6",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\releaseButton(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "210ca010bd6b2db27ef7ffb0cf93ebc1",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setHatSwitch(int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "412370e84faaed022747d6112e371986",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setAutoSendState(bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "e4231ea96a4d9818d1c4720c23409d46",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\sendState()",
+      "start-type": "FunctionNode",
+      "start-md5": "4285fc23055adebee06817e0e86e83d6",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\getAutoSendState()",
+      "start-type": "FunctionNode",
+      "start-md5": "31671b9ac71a4772f8d91524f5ad43ed",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\Joystick_(unsigned char\u003d 0x03,unsigned char\u003d 0x04,unsigned char\u003d ,unsigned char\u003d ,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true,bool\u003d true)",
+      "start-type": "ConstructorNode",
+      "start-md5": "ef6507b328eefa9539ac9ffe33fb7bdb",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "1b48e22ba57a6c61526210bae52e3622"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setXAxis(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "beeb8038dec24e95438def55b826e86d"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setYAxis(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "bd163b062fa2eff5cdb93e3251d04403"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setZAxis(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8f97737e9a135a3dbd4f3f1b1e91c53b"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\pressButton(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "75aef7c93ee9ba0861ba5edb0c907bd5",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "37f8af64c2cfb0bc58a718fa1ed16ca6"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\releaseButton(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "210ca010bd6b2db27ef7ffb0cf93ebc1",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "37f8af64c2cfb0bc58a718fa1ed16ca6"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\pressButton(unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "75aef7c93ee9ba0861ba5edb0c907bd5"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\releaseButton(unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "210ca010bd6b2db27ef7ffb0cf93ebc1"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\sendState()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4285fc23055adebee06817e0e86e83d6"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_compress_settings_init(LodePNGCompressSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_compress_settings_init.94748.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\printZlibInfo(Data&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.printZlibInfo.25978.stub
+.\lvandeve_lodepng\src\lodepng.cpp\bpmnode_create(BPMLists*,int,unsigned,BPMNode*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.bpmnode_create.34049.stub
+.\lvandeve_lodepng\src\lodepng.cpp\inflateHuffmanBlock(ucvector*,LodePNGBitReader*,unsigned,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.inflateHuffmanBlock.49867.stub
+.\lvandeve_lodepng\src\lodepng.cpp\postProcessScanlines(unsigned char*,unsigned char*,unsigned,unsigned,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.postProcessScanlines.209578.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\loadFile(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.loadFile.6837.stub
+.\lvandeve_lodepng\src\lodepng.cpp\HuffmanTree_makeTable(HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.HuffmanTree_makeTable.25368.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPngSuite(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPngSuite.151123.stub
+.\lvandeve_lodepng\src\lodepng.cpp\HuffmanTree_makeFromFrequencies(HuffmanTree*,unsigned const*,size_t,size_t,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.HuffmanTree_makeFromFrequencies.40316.stub
+.\lvandeve_lodepng\src\lodepng.cpp\countZeros(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.countZeros.63113.stub
+.\lvandeve_lodepng\src\lodepng.cpp\adler32(unsigned char const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.adler32.88195.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_stats_add(LodePNGColorStats*,unsigned,unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_stats_add.185170.stub
+.\lvandeve_lodepng\src\lodepng.cpp\color_tree_get(ColorTree*,unsigned char,unsigned char,unsigned char,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.color_tree_get.155174.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getPNGHeaderInfo(std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getPNGHeaderInfo.1031.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\load_file_(std::vector<unsigned char>&,FILE*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.load_file_.311790.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\isSRGB(LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.isSRGB.38712.stub
+.\lvandeve_lodepng\src\lodepng.cpp\string_cleanup(char**): .\aka-working-space\fwegweg\stubs\lodepng.cpp.string_cleanup.10900.stub
+.\lvandeve_lodepng\src\lodepng.cpp\zlib_decompress(unsigned char**,size_t*,size_t,unsigned char const*,size_t,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.zlib_decompress.90569.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPaletteToPaletteConvert(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPaletteToPaletteConvert.58596.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\compress(std::vector<unsigned char>&,std::vector<unsigned char>const&,LodePNGCompressSettings const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.compress.313872.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\load_file(std::vector<unsigned char>&,std::string const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.load_file.312095.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGBitReader_init(LodePNGBitReader*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGBitReader_init.16704.stub
+.\lvandeve_lodepng\src\lodepng.cpp\auto_choose_color(LodePNGColorMode*,LodePNGColorMode const*,LodePNGColorStats const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.auto_choose_color.186371.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\getNumColorChannels(unsigned): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.getNumColorChannels.17063.stub
+.\lvandeve_lodepng\src\lodepng.cpp\updateHashChain(Hash*,size_t,unsigned,unsigned short): .\aka-working-space\fwegweg\stubs\lodepng.cpp.updateHashChain.63587.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_state_copy(LodePNGState*,LodePNGState const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_state_copy.247327.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_load_file_(unsigned char**,size_t*,FILE*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_load_file_.13230.stub
+.\lvandeve_lodepng\src\lodepng.cpp\checkColorValidity(LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.checkColorValidity.135177.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testColorProfile(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testColorProfile.93415.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\isICCword(unsigned char const*,size_t,size_t,char const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.isICCword.21095.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTestInterlaced(Image&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTestInterlaced.28674.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testAutoColorModels(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testAutoColorModels.80151.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGText_cleanup(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGText_cleanup.144830.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertNoError(unsigned): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertNoError.9004.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_add_itext_sized(LodePNGInfo*,char const*,char const*,char const*,char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_add_itext_sized.147801.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showColorStats(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showColorStats.47739.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_zTXt(LodePNGInfo*,LodePNGDecoderSettings const*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_zTXt.216110.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\addColor(std::vector<unsigned char>&,unsigned char,unsigned char,unsigned char,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.addColor.77899.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_length(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_length.127700.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_huffman_code_lengths(unsigned*,unsigned const*,size_t,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_huffman_code_lengths.37103.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getFilterTypes(std::vector<unsigned char>&,std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getFilterTypes.7149.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ensureBits25(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ensureBits25.18988.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testChrmToSrgb(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testChrmToSrgb.128963.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testOtherPattern1(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testOtherPattern1.32248.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\displayColorsHex(std::vector<unsigned char>const&,unsigned,unsigned,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.displayColorsHex.21407.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\extractChunkNames(std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.extractChunkNames.53260.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ensureBits17(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ensureBits17.18263.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoLetter(unsigned char,unsigned char,unsigned char,unsigned char,unsigned,unsigned,bool= true,bool= false): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.RGBtoLetter.16325.stub
+.\lvandeve_lodepng\src\lodepng.cpp\encodeLZ77(uivector*,Hash*,unsigned char const*,size_t,size_t,unsigned,unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encodeLZ77.64533.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testBkgdChunk(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testBkgdChunk.111805.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_deflatev(ucvector*,unsigned char const*,size_t,LodePNGCompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_deflatev.84990.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_mode_init(LodePNGColorMode*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_mode_init.136632.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.RGBtoHSL.12879.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_iTXt(LodePNGInfo*,LodePNGDecoderSettings const*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_iTXt.217910.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testChunkUtil(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testChunkUtil.70874.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_eXIf(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_eXIf.226937.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTestWithEncState(Image&,lodepng::State&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTestWithEncState.26622.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ensureBits32(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ensureBits32.19847.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_tIME(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_tIME.221096.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_check_crc(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_check_crc.129413.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCompressStringZlib(std::string const&,bool): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCompressStringZlib.45941.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\printValue(std::string const&,T const&,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.printValue.3583.stub
+.\lvandeve_lodepng\src\lodepng.cpp\writeBits(LodePNGBitWriter*,unsigned,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.writeBits.15425.stub
+.\lvandeve_lodepng\src\lodepng.cpp\uivector_resize(uivector*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.uivector_resize.8859.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_is_alpha_type(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_is_alpha_type.140379.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decompress(std::vector<unsigned char>&,unsigned char const*,size_t,LodePNGDecompressSettings const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decompress.312721.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_type_name_valid(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_type_name_valid.128323.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_mode_equal(LodePNGColorMode const*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_mode_equal.138578.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_clear_icc(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_clear_icc.149982.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGText_copy(LodePNGInfo*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGText_copy.145111.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode24(unsigned char**,unsigned*,unsigned*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode24.244971.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\HueToLetter(int): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.HueToLetter.14150.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getChunkInfo(std::vector<std::string>&,std::vector<size_t>&,std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getChunkInfo.1251.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\encode(std::vector<unsigned char>&,std::vector<unsigned char>const&,unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encode.317153.stub
+.\lvandeve_lodepng\inc\SDL.h\SDL_GetTicks(): .\aka-working-space\fwegweg\stubs\SDL.h.SDL_GetTicks.34.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testExif(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testExif.104217.stub
+.\lvandeve_lodepng\src\lodepng.cpp\alloc_string_sized(char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.alloc_string_sized.11030.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_zlib_compress(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGCompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_zlib_compress.91690.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testOtherPattern2(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testOtherPattern2.33270.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\getICCUint16(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.getICCUint16.32753.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_stats_init(LodePNGColorStats*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_stats_init.176356.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\loadInspect(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.loadInspect.8289.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\displayChunkNames(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.displayChunkNames.11099.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode24_file(unsigned char**,unsigned*,unsigned*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode24_file.245896.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\shortenText(std::string const&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.shortenText.45747.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decode(std::vector<unsigned char>&,unsigned&,unsigned&,std::vector<unsigned char>const&,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decode.315172.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPaletteToPaletteDecode(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPaletteToPaletteDecode.86266.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertFromSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertFromSrgb.57667.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_mode_cleanup(LodePNGColorMode*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_mode_cleanup.137787.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\inspect_chunk_by_name(unsigned char const*,unsigned char const*,lodepng::State&,char const[5]): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.inspect_chunk_by_name.5772.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_malloc(size_t): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_malloc.9644.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\md5sum(unsigned char const*,size_t,unsigned*,unsigned*,unsigned*,unsigned*): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.md5sum.12922.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_palette_clear(LodePNGColorMode*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_palette_clear.139136.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_iCCP(ucvector*,LodePNGInfo const*,LodePNGCompressSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_iCCP.258799.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_free(void*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_free.9716.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_gAMA(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_gAMA.257687.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool= false): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testBkgdChunk.110447.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGUnknownChunks_cleanup(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGUnknownChunks_cleanup.143846.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_clear_exif(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_clear_exif.150584.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\showHelp(int,char*[]): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.showHelp.8883.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testAutoColorModel(std::vector<unsigned char>const&,unsigned,LodePNGColorType,unsigned,bool): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testAutoColorModel.78763.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_append(unsigned char**,size_t*,unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_append.132202.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\displayFilterTypes(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.displayFilterTypes.22800.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_gtofl(size_t,size_t,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_gtofl.6643.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertNoPNGError(unsigned,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertNoPNGError.8706.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getICCChrm(float[9],float[3],LodePNGICC const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getICCChrm.34457.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_generate_crc(unsigned char*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_generate_crc.129781.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\getICCInt32(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.getICCInt32.33153.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_IEND(ucvector*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_IEND.252103.stub
+.\lvandeve_lodepng\src\lodepng.cpp\uivector_push_back(uivector*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.uivector_push_back.9455.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_memcpy(void*,void const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_memcpy.4907.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_tRNS(LodePNGColorMode*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_tRNS.212361.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\loadPixels(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.loadPixels.10113.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testSbitChunk(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testSbitChunk.122391.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\isExif(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.isExif.7904.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_tIME(ucvector*,LodePNGTime const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_tIME.256805.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_powf(float,float): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_powf.10730.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_add_itext(LodePNGInfo*,char const*,char const*,char const*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_add_itext.149072.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\displayAsciiArt(std::vector<unsigned char>const&,unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.displayAsciiArt.19975.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\testDecode(std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.testDecode.6419.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertToXYZ_gamma_table(float*,size_t,size_t,LodePNGInfo const*,unsigned,LodePNGICC const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertToXYZ_gamma_table.43274.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_cLLI(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_cLLI.226532.stub
+.\lvandeve_lodepng\src\lodepng.cpp\deflateNoCompression(ucvector*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.deflateNoCompression.70551.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getPixelColorRGBA16(unsigned short*,unsigned short*,unsigned short*,unsigned short*,unsigned char const*,size_t,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getPixelColorRGBA16.169854.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decode(std::vector<unsigned char>&,unsigned&,unsigned&,State&,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decode.315453.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_is_palette_type(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_is_palette_type.140497.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doMain(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doMain.325483.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\rescale(std::vector<unsigned char>const&,int,int,int,int,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.rescale.17450.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decompress_settings_init(LodePNGDecompressSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decompress_settings_init.95404.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_mode_copy(LodePNGColorMode*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_mode_copy.137887.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_compute_color_stats(LodePNGColorStats*,unsigned char const*,unsigned,unsigned,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_compute_color_stats.177591.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_mulofl(size_t,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_mulofl.9347.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTest(Image&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTest.29859.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_createv(ucvector*,size_t,char const*,unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_createv.134032.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertToXYZ_chrm(float*,unsigned,unsigned,LodePNGInfo const*,unsigned,LodePNGICC const*,float[3]): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertToXYZ_chrm.44237.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.RGBtoHCT.13757.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_init(unsigned char**,ucvector*,size_t,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_init.133348.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\encode(std::vector<unsigned char>&,std::vector<unsigned char>const&,unsigned,unsigned,State&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encode.317910.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\decodeICC15Fixed16(unsigned char const*,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.decodeICC15Fixed16.20945.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showPNGInfo(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showPNGInfo.46392.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\generateTestImageRequiringColorType8(Image&,LodePNGColorType,unsigned,bool): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.generateTestImageRequiringColorType8.21416.stub
+.\lvandeve_lodepng\src\lodepng.cpp\Adam7_getpassvalues(unsigned[7],unsigned[7],size_t[8],size_t[8],size_t[8],unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.Adam7_getpassvalues.190916.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPNGCodec(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPNGCodec.38161.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getHash(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getHash.62361.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCustomZlibDecompress(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCustomZlibDecompress.68125.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\md5sum(unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.md5sum.15998.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_set_icc(LodePNGInfo*,char const*,unsigned char const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_set_icc.149322.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_inspect_chunk(LodePNGState*,size_t,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_inspect_chunk.229132.stub
+.\lvandeve_lodepng\src\lodepng.cpp\zlib_compress(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGCompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.zlib_compress.93054.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_get_channels(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_get_channels.140114.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testFewColors(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testFewColors.35542.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPngSuiteImage(std::string const&,std::string const&,bool,unsigned,unsigned,std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPngSuiteImage.150726.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_PLTE(LodePNGColorMode*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_PLTE.211641.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGUnknownChunks_init(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGUnknownChunks_init.143644.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readBits(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readBits.21380.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_deflate(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGCompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_deflate.86403.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_data_const(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_data_const.129320.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_tEXt(ucvector*,char const*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_tEXt.252251.stub
+.\lvandeve_lodepng\src\lodepng.cpp\filterScanline(unsigned char*,unsigned char const*,unsigned char const*,size_t,size_t,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.filterScanline.264648.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showHeaderInfo(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showHeaderInfo.40779.stub
+.\lvandeve_lodepng\src\lodepng.cpp\hash_init(Hash*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.hash_init.60979.stub
+.\lvandeve_lodepng\src\lodepng.cpp\decodeGeneric(unsigned char**,unsigned*,unsigned*,LodePNGState*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decodeGeneric.232209.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readBitFromReversedStream(size_t*,unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readBitFromReversedStream.126484.stub
+.\lvandeve_lodepng\src\lodepng.cpp\searchCodeIndex(unsigned const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.searchCodeIndex.58610.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertFromXYZFloat(float*,float const*,unsigned,unsigned,LodePNGState const*,float const[3],unsigned): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertFromXYZFloat.55479.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decode(std::vector<unsigned char>&,unsigned&,unsigned&,std::string const&,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decode.316200.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\assertEquals(T const&,U const&,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.assertEquals.2673.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTestNoLZ77(Image&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTestNoLZ77.27711.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_eXIf(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_eXIf.262756.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\mulMatrixMatrix(float*,float const*,float const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.mulMatrixMatrix.28608.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_get_bpp_lct(LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_get_bpp_lct.136352.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\encode(std::string const&,std::vector<unsigned char>const&,unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encode.318597.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode32_file(char const*,unsigned char const*,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode32_file.300224.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCustomDeflate(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCustomDeflate.67038.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertFromXYZ(unsigned char*,float const*,unsigned,unsigned,LodePNGState const*,float const[3],unsigned): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertFromXYZ.52808.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ucvector_resize(ucvector*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ucvector_resize.10429.stub
+.\lvandeve_lodepng\src\lodepng.cpp\HuffmanTree_makeFromLengths(HuffmanTree*,unsigned const*,size_t,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.HuffmanTree_makeFromLengths.32642.stub
+.\lvandeve_lodepng\src\lodepng.cpp\rgba8ToPixel(unsigned char*,size_t,LodePNGColorMode const*,ColorTree*,unsigned char,unsigned char,unsigned char,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.rgba8ToPixel.156645.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testDiskPNG(std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testDiskPNG.48671.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTestUncompressed(Image&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTestUncompressed.27552.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_PLTE(ucvector*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_PLTE.249219.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_info_init(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_info_init.150782.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_zlib_decompress(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_zlib_decompress.90087.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode(unsigned char**,unsigned*,unsigned*,LodePNGState*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode.242409.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\save_file(std::vector<unsigned char>const&,std::string const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.save_file.312432.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\valtostr(std::vector<T>const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.valtostr.7736.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_zTXt(ucvector*,char const*,char const*,LodePNGCompressSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_zTXt.252864.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGBitWriter_init(LodePNGBitWriter*,ucvector*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGBitWriter_init.14842.stub
+.\lvandeve_lodepng\src\lodepng.cpp\reverseBits(unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.reverseBits.21584.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testComplexPNG(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testComplexPNG.53736.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showError(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showError.29404.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\test16bitColorEndianness(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.test16bitColorEndianness.72231.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_IDAT(ucvector*,unsigned char const*,size_t,LodePNGCompressSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_IDAT.251307.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_mode_alloc_palette(LodePNGColorMode*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_mode_alloc_palette.136953.stub
+.\lvandeve_lodepng\src\lodepng.cpp\deflateDynamic(LodePNGBitWriter*,Hash*,unsigned char const*,size_t,size_t,LodePNGCompressSettings const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.deflateDynamic.73166.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_sRGB(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_sRGB.258622.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_cICP(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_cICP.259783.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\encode(std::string const&,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encode.318241.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\fromBase64(int): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.fromBase64.11717.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getAdaptationMatrix(float*,int,float,float,float,float,float,float): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getAdaptationMatrix.31883.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode32(unsigned char**,unsigned*,unsigned*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode32.244781.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_sBIT(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_sBIT.262909.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_get_raw_size(unsigned,unsigned,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_get_raw_size.141256.stub
+.\lvandeve_lodepng\src\lodepng.cpp\unfilter(unsigned char*,unsigned char const*,unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.unfilter.204706.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGState*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode.283214.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ilog2i(size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ilog2i.266974.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\isNear(T,U,V): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.isNear.10028.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_convert.171101.stub
+.\lvandeve_lodepng\src\lodepng.cpp\unfilterScanline(unsigned char*,unsigned char const*,unsigned char const*,size_t,unsigned char,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.unfilterScanline.195348.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertTrue(bool,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertTrue.8496.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\displayPalette(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.displayPalette.23775.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_pHYs(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_pHYs.257336.stub
+.\lvandeve_lodepng\src\lodepng.cpp\isGrayICCProfile(unsigned char const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.isGrayICCProfile.282157.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_tEXt(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_tEXt.214857.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_get_raw_size_lct(unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_get_raw_size_lct.140993.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\strtovector(std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.strtovector.49051.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\toBase64(T&,U const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.toBase64.11218.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_state_cleanup(LodePNGState*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_state_cleanup.247179.stub
+.\lvandeve_lodepng\src\lodepng.cpp\color_tree_cleanup(ColorTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.color_tree_cleanup.154894.stub
+.\lvandeve_lodepng\src\lodepng.cpp\huffmanDecodeSymbol(LodePNGBitReader*,HuffmanTree const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.huffmanDecodeSymbol.42507.stub
+.\lvandeve_lodepng\src\lodepng.cpp\inflateNoCompression(ucvector*,LodePNGBitReader*,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.inflateNoCompression.54541.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getNumColorChannels(LodePNGColorType): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getNumColorChannels.135981.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\modelsEqual(LodePNGState const*,LodePNGState const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.modelsEqual.39858.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertToXYZFloat(float*,float[3],float const*,unsigned,unsigned,LodePNGState const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertToXYZFloat.48278.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_private(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_private.128721.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\mulMatrix(float*,float*,float*,float const*,double,double,double): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.mulMatrix.28170.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertToSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertToSrgb.57310.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGIText_cleanup(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGIText_cleanup.146747.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\testEncode(Image&): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.testEncode.4085.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showSingleLineSummary(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showSingleLineSummary.31903.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addColorBits(unsigned char*,size_t,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addColorBits.153782.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getPaletteValue(unsigned char const*,size_t,int): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getPaletteValue.8575.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertColorProfileDataEqual(lodepng::State const&,lodepng::State const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertColorProfileDataEqual.90301.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_ancillary(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_ancillary.128614.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testNoAutoConvert(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testNoAutoConvert.62335.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_cICP(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_cICP.225160.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\reloadPixels(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.reloadPixels.10183.stub
+.\lvandeve_lodepng\src\lodepng.cpp\bpmnode_sort(BPMNode*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.bpmnode_sort.35045.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addPaddingBits(unsigned char*,unsigned char const*,size_t,size_t,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addPaddingBits.275505.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encoder_settings_init(LodePNGEncoderSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encoder_settings_init.300612.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_sBIT(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_sBIT.227140.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_get_raw_size_idat(unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_get_raw_size_idat.141740.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\valtostr(unsigned char const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.valtostr.7378.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode_file(unsigned char**,unsigned*,unsigned*,char const*,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode_file.245189.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_clear_itext(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_clear_itext.147707.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_convert_rgb(unsigned*,unsigned*,unsigned*,unsigned,unsigned,unsigned,LodePNGColorMode const*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_convert_rgb.174550.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ucvector_init(unsigned char*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ucvector_init.10551.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertPixels(Image&,unsigned char const*,std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertPixels.23237.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_data(unsigned char*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_data.129229.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\colorTypeString(LodePNGColorType): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.colorTypeString.10444.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_addofl(size_t,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_addofl.5937.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\parseICC(LodePNGICC*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.parseICC.21788.stub
+.\lvandeve_lodepng\src\lodepng.cpp\update_adler32(unsigned,unsigned char const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.update_adler32.87603.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testGetFilterTypes(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testGetFilterTypes.27867.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doRGBAToPaletteTest(unsigned char*,size_t,LodePNGColorType= LCT_PALETTE): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doRGBAToPaletteTest.59543.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testSbitChunk(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,bool= false): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testSbitChunk.119615.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_can_have_alpha(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_can_have_alpha.140809.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\getTime(): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.getTime.2581.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\codecTest(unsigned,unsigned,LodePNGColorType= LCT_RGBA,unsigned= 8): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.codecTest.30138.stub
+.\lvandeve_lodepng\src\lodepng_fuzzer.cpp\testDecode(lodepng::State&,uint8_t const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng_fuzzer.cpp.testDecode.1695.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode24(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode24.299551.stub
+.\lvandeve_lodepng\src\lodepng.cpp\Adam7_deinterlace(unsigned char*,unsigned char const*,unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.Adam7_deinterlace.206563.stub
+.\lvandeve_lodepng\src\lodepng.cpp\alloc_string(char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.alloc_string.11332.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode24_file(char const*,unsigned char const*,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode24_file.300404.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\createComplexPNG(std::vector<unsigned char>&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.createComplexPNG.51431.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\valtostr(T const*): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.valtostr.7583.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_icc_init(LodePNGICC*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_icc_init.15926.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTestC(Image&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTestC.24195.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_icc_curve_init(LodePNGICCCurve*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_icc_curve_init.13798.stub
+.\lvandeve_lodepng\src\lodepng.cpp\rgba16ToPixel(unsigned char*,size_t,LodePNGColorMode const*,unsigned short,unsigned short,unsigned short,unsigned short): .\aka-working-space\fwegweg\stubs\lodepng.cpp.rgba16ToPixel.158740.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCustomZlibCompress(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCustomZlibCompress.65236.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showExifIFD(unsigned char const*,size_t,size_t,bool,bool,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showExifIFD.50504.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_cHRM(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_cHRM.222249.stub
+.\lvandeve_lodepng\src\lodepng.cpp\deflate(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGCompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.deflate.86782.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testInspectChunk(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testInspectChunk.56659.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testEncoderErrors(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testEncoderErrors.75801.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_type(char[5],unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_type.127801.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCompressZlib(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCompressZlib.46934.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\getRandom(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.getRandom.12451.stub
+.\lvandeve_lodepng\src\lodepng.cpp\uivector_init(uivector*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.uivector_init.9297.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector<unsigned char>const&,unsigned,unsigned,LodePNGColorMode const&,LodePNGColorMode const&,bool,bool= false): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testBkgdChunk.108230.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\loadWithErrorRecovery(Data&,Options const&,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.loadWithErrorRecovery.29756.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_bKGD(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_bKGD.255654.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\getFilePart(std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.getFilePart.7451.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ucvector_reserve(ucvector*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ucvector_reserve.10000.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\bitStringToBytes(std::vector<unsigned char>&,std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.bitStringToBytes.30598.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_gAMA(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_gAMA.221939.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ilog2(size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ilog2.266605.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertFromXYZ_gamma(float*,unsigned,unsigned,LodePNGInfo const*,unsigned,LodePNGICC const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertFromXYZ_gamma.51686.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_color_mode_make(LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_color_mode_make.138341.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGText_init(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGText_init.144694.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\decodeICCInt32(unsigned char const*,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.decodeICCInt32.20654.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showInfos(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showInfos.57748.stub
+.\lvandeve_lodepng\src\lodepng.cpp\isRGBICCProfile(unsigned char const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.isRGBICCProfile.282925.stub
+.\lvandeve_lodepng\src\lodepng.cpp\generateFixedLitLenTree(HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.generateFixedLitLenTree.41166.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_cHRM(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_cHRM.257960.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showErrors(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showErrors.49438.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertEquals(T const&,U const&,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertEquals.8053.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doCodecTestCPP(Image&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doCodecTestCPP.25679.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_strlen(char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_strlen.5389.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_next(unsigned char*,unsigned char*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_next.130006.stub
+.\lvandeve_lodepng\src\lodepng.cpp\Adam7_interlace(unsigned char*,unsigned char const*,unsigned,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.Adam7_interlace.276794.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_crc32(unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_crc32.124460.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\generateTestImageRequiringColorType16(Image&,LodePNGColorType,unsigned,bool): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.generateTestImageRequiringColorType16.18392.stub
+.\lvandeve_lodepng\src\lodepng.cpp\color_tree_add(ColorTree*,unsigned char,unsigned char,unsigned char,unsigned char,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.color_tree_add.155966.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_is_greyscale_type(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_is_greyscale_type.140230.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode_file(char const*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode_file.299776.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\valtostr(T const&): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.valtostr.3450.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_IHDR(ucvector*,unsigned,unsigned,LodePNGColorType,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_IHDR.248457.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addUnknownChunks(ucvector*,unsigned char*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addUnknownChunks.281762.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\colorConvertTest(std::string const&,LodePNGColorType,unsigned,std::string const&,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.colorConvertTest.31154.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_add_text_sized(LodePNGInfo*,char const*,char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_add_text_sized.145452.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode_memory(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode_memory.298772.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_error_text(unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_error_text.301318.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_malloc(size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_malloc.3167.stub
+.\lvandeve_lodepng\src\lodepng.cpp\advanceBits(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.advanceBits.21181.stub
+.\lvandeve_lodepng\src\lodepng.cpp\color_tree_init(ColorTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.color_tree_init.154752.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testColorKeyConvert(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testColorKeyConvert.61315.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testDiskCompressZlib(std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testDiskCompressZlib.48333.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPaletteFilterTypesZero(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPaletteFilterTypesZero.58125.stub
+.\lvandeve_lodepng\src\lodepng.cpp\ensureBits9(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.ensureBits9.17695.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_pHYs(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_pHYs.221518.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showExif(Data&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showExif.56143.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCustomZlibCompress2(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCustomZlibCompress2.66303.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\md5sum(std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.md5sum.16649.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\fail(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.fail.7064.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int= 0): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testChrmToSrgb.127293.stub
+.\lvandeve_lodepng\src\lodepng.cpp\preProcessScanlines(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGInfo const*,LodePNGEncoderSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.preProcessScanlines.278488.stub
+.\lvandeve_lodepng\src\lodepng.cpp\removePaddingBits(unsigned char*,unsigned char const*,size_t,size_t,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.removePaddingBits.208189.stub
+.\lvandeve_lodepng\src\lodepng.cpp\deflateFixed(LodePNGBitWriter*,Hash*,unsigned char const*,size_t,size_t,LodePNGCompressSettings const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.deflateFixed.83354.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\decodeICCUint16(unsigned char const*,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.decodeICCUint16.20202.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\removeSpaces(std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.removeSpaces.30437.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showHex(unsigned char const*,size_t,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showHex.40300.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decompress(std::vector<unsigned char>&,std::vector<unsigned char>const&,LodePNGDecompressSettings const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decompress.313149.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testColorConvert2(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testColorConvert2.43407.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\fromBase64(T&,U const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.fromBase64.12068.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decoder_settings_init(LodePNGDecoderSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decoder_settings_init.246097.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testSize(unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testSize.37615.stub
+.\lvandeve_lodepng\src\lodepng.cpp\filter(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGColorMode const*,LodePNGEncoderSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.filter.267270.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\doTestHuffmanCodeLengths(std::string const&,std::string const&,size_t): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.doTestHuffmanCodeLengths.49243.stub
+.\lvandeve_lodepng\src\lodepng.cpp\HuffmanTree_makeFromLengths2(HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.HuffmanTree_makeFromLengths2.31120.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\valtostr(T const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.valtostr.7191.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_next_const(unsigned char const*,unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_next_const.130766.stub
+.\lvandeve_lodepng\src\lodepng.cpp\uivector_cleanup(void*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.uivector_cleanup.8624.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getPixelColorRGBA8(unsigned char*,unsigned char*,unsigned char*,unsigned char*,unsigned char const*,size_t,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getPixelColorRGBA8.160064.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_set32bitInt(unsigned char*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_set32bitInt.12083.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\readExifUint32(unsigned char const*,size_t,size_t,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.readExifUint32.49627.stub
+.\lvandeve_lodepng\src\lodepng.cpp\generateFixedDistanceTree(HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.generateFixedDistanceTree.41913.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\assertTrue1(bool,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.assertTrue1.2980.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\applyDither(int,int,int,int,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.applyDither.15620.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_info_copy(LodePNGInfo*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_info_copy.152555.stub
+.\lvandeve_lodepng\src\lodepng.cpp\color_tree_has(ColorTree*,unsigned char,unsigned char,unsigned char,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.color_tree_has.155594.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testColorConvert(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testColorConvert.39388.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\encode(std::vector<unsigned char>&,unsigned char const*,unsigned,unsigned,State&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encode.317510.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGIText_init(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGIText_init.146542.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_read32bitInt(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_read32bitInt.11672.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\strtoval(std::string const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.strtoval.10907.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\readExifUint16(unsigned char const*,size_t,size_t,bool): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.readExifUint16.50079.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getPixelColorsRGB8(unsigned char*,size_t,unsigned char const*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getPixelColorsRGB8.166906.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getTreeInflateDynamic(HuffmanTree*,HuffmanTree*,LodePNGBitReader*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getTreeInflateDynamic.43812.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_memset(void*,int,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_memset.5128.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_filesize(FILE*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_filesize.12821.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\validateICC(LodePNGICC const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.validateICC.33565.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_mulofl(size_t,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_mulofl.6357.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getValueRequiredBits(unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getValueRequiredBits.177304.stub
+.\lvandeve_lodepng\src\lodepng.cpp\peekBits(LodePNGBitReader*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.peekBits.20940.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_palette_add.139297.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testFuzzing(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testFuzzing.63697.stub
+.\lvandeve_lodepng\src\lodepng.cpp\writeBitsReversed(LodePNGBitWriter*,unsigned,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.writeBitsReversed.15932.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\addColor16(std::vector<unsigned char>&,unsigned short,unsigned short,unsigned short,unsigned short): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.addColor16.78121.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_zlib_decompressv(ucvector*,unsigned char const*,size_t,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_zlib_decompressv.88591.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_state_init(LodePNGState*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_state_init.246781.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\decodeICCUint32(unsigned char const*,size_t,size_t*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.decodeICCUint32.20403.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode_memory(unsigned char**,unsigned*,unsigned*,unsigned char const*,size_t,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode_memory.244079.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\encode(std::vector<unsigned char>&,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.encode.316717.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_info_cleanup(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_info_cleanup.152206.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_mDCV(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_mDCV.225707.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_find_const(unsigned char const*,unsigned char const*,char const[5]): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_find_const.131863.stub
+.\lvandeve_lodepng\src\lodepng.cpp\HuffmanTree_init(HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.HuffmanTree_init.24592.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testCustomInflate(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testCustomInflate.69492.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_tRNS(ucvector*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_tRNS.249858.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decode(std::vector<unsigned char>&,unsigned&,unsigned&,unsigned char const*,size_t,LodePNGColorType,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decode.314560.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_set_exif(LodePNGInfo*,unsigned char const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_set_exif.150199.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_iTXt(ucvector*,unsigned,char const*,char const*,char const*,char const*,LodePNGCompressSettings*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_iTXt.253931.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_icc_curve_cleanup(LodePNGICCCurve*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_icc_curve_cleanup.13901.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\lodepng_icc_cleanup(LodePNGICC*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.lodepng_icc_cleanup.16096.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_encode32(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_encode32.299354.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGIText_copy(LodePNGInfo*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGIText_copy.147208.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readBitsFromReversedStream(size_t*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readBitsFromReversedStream.126765.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getChunks(std::vector<std::string>[3],std::vector<std::vector<unsigned char>>[3],std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getChunks.1907.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testICCGray(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testICCGray.143728.stub
+.\lvandeve_lodepng\src\lodepng_fuzzer.cpp\LLVMFuzzerTestOneInput(uint8_t const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng_fuzzer.cpp.LLVMFuzzerTestOneInput.1952.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\iccBackwardTRC(LodePNGICCCurve const*,float): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.iccBackwardTRC.18431.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\printableICCWord(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.printableICCWord.33677.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addLengthDistance(uivector*,size_t,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addLengthDistance.59084.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool= false): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testSbitChunk2.120653.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_bKGD(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_bKGD.213472.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\getICC16Fixed16(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.getICC16Fixed16.33533.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\printICCDetails(unsigned char const*,size_t,std::string const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.printICCDetails.33972.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_find(unsigned char*,unsigned char*,char const[5]): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_find.131538.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertRGBModel(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*,LodePNGState const*,unsigned): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertRGBModel.56417.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\assertExifDataEqual(lodepng::State const&,lodepng::State const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.assertExifDataEqual.103843.stub
+.\lvandeve_lodepng\src\lodepng.cpp\paethPredictor(unsigned char,unsigned char,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.paethPredictor.189076.stub
+.\lvandeve_lodepng\src\lodepng.cpp\hash_cleanup(Hash*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.hash_cleanup.62128.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showRender(Data&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showRender.57219.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\countColors(std::vector<unsigned char>const&,unsigned,unsigned,size_t*,size_t*,size_t*,size_t*): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.countColors.27997.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getChrmMatrixXYZ(float*,float,float,float,float,float,float,float,float,float,float,float,float): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getChrmMatrixXYZ.30226.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\showHelp(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.showHelp.1456.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_iCCP(LodePNGInfo*,LodePNGDecoderSettings const*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_iCCP.223512.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getChrmMatrixXY(float*,float,float,float,float,float,float,float,float): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getChrmMatrixXY.31057.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_safetocopy(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_safetocopy.129122.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testBase64Image(std::string const&,bool,unsigned,unsigned,std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testBase64Image.147590.stub
+.\lvandeve_lodepng\src\lodepng.cpp\LodePNGUnknownChunks_copy(LodePNGInfo*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.LodePNGUnknownChunks_copy.144004.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\leftrotate(unsigned,unsigned): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.leftrotate.12712.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\getICCUint32(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.getICCUint32.32930.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testXYZ(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testXYZ.131258.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\displayPalettePixels(std::vector<unsigned char>const&,Options const&): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.displayPalettePixels.24583.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertFromXYZ_chrm(float*,float const*,unsigned,unsigned,LodePNGInfo const*,unsigned,LodePNGICC const*,float const[3],unsigned): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertFromXYZ_chrm.49175.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPaletteToPaletteDecode2(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPaletteToPaletteDecode2.89012.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\isPng(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.isPng.7143.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_type_equals(unsigned char const*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_type_equals.127998.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\invMatrix(float*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.invMatrix.29056.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testHuffmanCodeLengths(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testHuffmanCodeLengths.49928.stub
+.\lvandeve_lodepng\src\lodepng.cpp\inflatev(ucvector*,unsigned char const*,size_t,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.inflatev.57271.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testBkgdChunk2(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testBkgdChunk2.114958.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_decode32_file(unsigned char**,unsigned*,unsigned*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_decode32_file.245723.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\printValue(std::string const&,T const&,std::string const&,U const&,std::string const&= ""): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.printValue.3772.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\flipBit(unsigned char,int): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.flipBit.63448.stub
+.\lvandeve_lodepng\src\lodepng.cpp\HuffmanTree_cleanup(HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.HuffmanTree_cleanup.24740.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_has_palette_alpha(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_has_palette_alpha.140610.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_cLLI(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_cLLI.262417.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_realloc(void*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_realloc.3396.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_free(void*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_free.3576.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testPredefinedFilters(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testPredefinedFilters.74999.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_add_text(LodePNGInfo*,char const*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_add_text.146216.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\lightnessToLetter(int): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.lightnessToLetter.15024.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testColor(int,int,int,int): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testColor.34261.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_create(unsigned char**,size_t*,size_t,char const*,unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_create.134456.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testRGBToPaletteConvert(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testRGBToPaletteConvert.60615.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\getICC15Fixed16(unsigned char const*,size_t,size_t): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.getICC15Fixed16.33383.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testErrorImages(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testErrorImages.325113.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getPixelColorsRGBA8(unsigned char*,size_t,unsigned char const*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getPixelColorsRGBA8.162963.stub
+.\lvandeve_lodepng\src\pngdetail.cpp\Data\isIcc(): .\aka-working-space\fwegweg\stubs\pngdetail.cpp.isIcc.7437.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_load_file(unsigned char**,size_t*,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_load_file.13613.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\diff(T,U): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.diff.10174.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_save_file(unsigned char const*,size_t,char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_save_file.13959.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertToXYZ_gamma(float*,float const*,unsigned,unsigned,LodePNGInfo const*,unsigned,LodePNGICC const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertToXYZ_gamma.41965.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_inflate(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_inflate.56890.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_pixel_overflow(unsigned,unsigned,LodePNGColorMode const*,LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_pixel_overflow.142548.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\compress(std::vector<unsigned char>&,unsigned char const*,size_t,LodePNGCompressSettings const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.compress.313455.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_get_bpp(LodePNGColorMode const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_get_bpp.139987.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_inflatev(ucvector*,unsigned char const*,size_t,LodePNGDecompressSettings const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_inflatev.55885.stub
+.\lvandeve_lodepng\src\lodepng_benchmark.cpp\testFile(std::string const&): .\aka-working-space\fwegweg\stubs\lodepng_benchmark.cpp.testFile.7668.stub
+.\lvandeve_lodepng\src\lodepng.cpp\writeLZ77data(LodePNGBitWriter*,uivector const*,HuffmanTree const*,HuffmanTree const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.writeLZ77data.71957.stub
+.\lvandeve_lodepng\src\lodepng.cpp\writeSignature(ucvector*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.writeSignature.248121.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector<unsigned char>const&,unsigned,unsigned,LodePNGColorMode const&,LodePNGColorMode const&,bool,bool= false): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testSbitChunk.116871.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\convertToXYZ(float*,float[3],unsigned char const*,unsigned,unsigned,LodePNGState const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.convertToXYZ.45386.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_chunk_reserved(unsigned char const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_chunk_reserved.129016.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testICC(): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testICC.135559.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\insertChunks(std::vector<unsigned char>&,std::vector<std::vector<unsigned char>>const[3]): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.insertChunks.2959.stub
+.\lvandeve_lodepng\src\lodepng.cpp\setBitOfReversedStream(size_t*,unsigned char*,unsigned char): .\aka-working-space\fwegweg\stubs\lodepng.cpp.setBitOfReversedStream.127066.stub
+.\lvandeve_lodepng\src\lodepng.cpp\addChunk_mDCV(ucvector*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.addChunk_mDCV.260709.stub
+.\lvandeve_lodepng\src\lodepng.cpp\boundaryPM(BPMLists*,BPMNode*,size_t,int,int): .\aka-working-space\fwegweg\stubs\lodepng.cpp.boundaryPM.35921.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\generateTestImage(Image&,unsigned,unsigned,LodePNGColorType= LCT_RGBA,unsigned= 8): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.generateTestImage.17539.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getFilterTypesInterlaced(std::vector<std::vector<unsigned char>>&,std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getFilterTypesInterlaced.4572.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\iccForwardTRC(LodePNGICCCurve const*,float): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.iccForwardTRC.16706.stub
+.\lvandeve_lodepng\src\lodepng.cpp\readChunk_sRGB(LodePNGInfo*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.readChunk_sRGB.223231.stub
+.\lvandeve_lodepng\src\lodepng_unittest.cpp\testSinglePixel(int,int,int,int): .\aka-working-space\fwegweg\stubs\lodepng_unittest.cpp.testSinglePixel.33862.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_clear_text(LodePNGInfo*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_clear_text.146370.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng_inspect(unsigned*,unsigned*,LodePNGState*,unsigned char const*,size_t): .\aka-working-space\fwegweg\stubs\lodepng.cpp.lodepng_inspect.192565.stub
+.\lvandeve_lodepng\src\lodepng.cpp\getTreeInflateFixed(HuffmanTree*,HuffmanTree*): .\aka-working-space\fwegweg\stubs\lodepng.cpp.getTreeInflateFixed.43481.stub
+.\lvandeve_lodepng\src\lodepng.cpp\lodepng\decode(std::vector<unsigned char>&,unsigned&,unsigned&,State&,std::vector<unsigned char>const&): .\aka-working-space\fwegweg\stubs\lodepng.cpp.decode.315930.stub
+.\lvandeve_lodepng\src\lodepng_util.cpp\lodepng\getChrm(float[9],float[3],unsigned,LodePNGICC const*,LodePNGInfo const*): .\aka-working-space\fwegweg\stubs\lodepng_util.cpp.getChrm.37062.stub

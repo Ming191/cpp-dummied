@@ -1,0 +1,17 @@
+/** Static counting variable **/
+static int AKA_INTRA_FCOUNT = 0;
+AKA_INTRA_FCOUNT++;
+
+/*******************************************************************************
+ * Stub code for subprogram in tested project.
+ * Initialize automatically by AKA.
+ *
+ * @unit: lodepng.cpp
+ * @name: lodepng_zlib_decompressv(ucvector*,unsigned char const*,size_t
+ *							,LodePNGDecompressSettings const*)
+ * @path: .\lvandeve_lodepng\src\lodepng.cpp
+ *							\lodepng_zlib_decompressv(ucvector*,unsigned char const*,size_t,LodePNGDecompressSettings const*)
+ ******************************************************************************/
+
+/*{{START_DEFINE_TEST_CASE_MACRO}}*/
+/*{{END_DEFINE_TEST_CASE_MACRO}}*/

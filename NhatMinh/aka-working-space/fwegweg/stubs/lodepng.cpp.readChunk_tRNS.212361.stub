@@ -1,0 +1,16 @@
+/** Static counting variable **/
+static int AKA_INTRA_FCOUNT = 0;
+AKA_INTRA_FCOUNT++;
+
+/*******************************************************************************
+ * Stub code for subprogram in tested project.
+ * Initialize automatically by AKA.
+ *
+ * @unit: lodepng.cpp
+ * @name: readChunk_tRNS(LodePNGColorMode*,unsigned char const*,size_t)
+ * @path: .\lvandeve_lodepng\src\lodepng.cpp
+ *							\readChunk_tRNS(LodePNGColorMode*,unsigned char const*,size_t)
+ ******************************************************************************/
+
+/*{{START_DEFINE_TEST_CASE_MACRO}}*/
+/*{{END_DEFINE_TEST_CASE_MACRO}}*/

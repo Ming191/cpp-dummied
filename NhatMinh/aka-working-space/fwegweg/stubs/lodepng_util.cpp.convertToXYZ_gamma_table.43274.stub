@@ -1,0 +1,17 @@
+/** Static counting variable **/
+static int AKA_INTRA_FCOUNT = 0;
+AKA_INTRA_FCOUNT++;
+
+/*******************************************************************************
+ * Stub code for subprogram in tested project.
+ * Initialize automatically by AKA.
+ *
+ * @unit: lodepng_util.cpp
+ * @name: convertToXYZ_gamma_table(float*,size_t,size_t,LodePNGInfo const*
+ *							,unsigned,LodePNGICC const*)
+ * @path: .\lvandeve_lodepng\src
+ *							\lodepng_util.cpp\lodepng\convertToXYZ_gamma_table(float*,size_t,size_t,LodePNGInfo const*,unsigned,LodePNGICC const*)
+ ******************************************************************************/
+
+/*{{START_DEFINE_TEST_CASE_MACRO}}*/
+/*{{END_DEFINE_TEST_CASE_MACRO}}*/

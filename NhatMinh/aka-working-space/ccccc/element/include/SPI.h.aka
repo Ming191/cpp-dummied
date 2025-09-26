@@ -1,0 +1,20 @@
+{
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\setClockDivider(unsigned char)": "0d0617f2ebff47ce753fb08783be9d86",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\attachInterrupt()": "5226cc1e7fe9efa1c350ca99cd77d57f",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\detachInterrupt()": "91de27c4f7a0e833750a5757e336c01a",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings\\SPISettings(unsigned long,unsigned char,unsigned char)": "baf6c3df92414cad0d6188cd4b75da7d",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\transfer(unsigned char)": "d8baae1fc857f9e6c7c7cb3febc5fb9d",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\setBitOrder(unsigned char)": "b828780a2c7b2ee940c2b21841565abf",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass": "ec66d3b084803c314ebe85156b79bf3c",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\transfer16(unsigned short)": "307411e8e24b233c31f0d24c3f30f55a",
+  "NAME_FILE": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\end()": "ccd3de05e1ca5968532a29e4b072b1c2",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\transfer(void*,size_t)": "b00f32947d2bee0a4149dfd52c785bd9",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\beginTransaction(SPISettings)": "8296108439d2e9444e68ef6b4713d92e",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\setDataMode(unsigned char)": "3462c179d56ef1c565f919d3cf3e14a6",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings\\SPISettings()": "58ffdf2eb32ff7f6c2abac58183e29e4",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\endTransaction()": "e6961490136d3e5ebed38a350e573bf4",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\begin()": "9e75ce4680928b9f706344af005c8504",
+  ".\\outlandnish_fw-ghost-drive\\\"cstddef\"": "a5d75a589c48a9963a512a6ccabb3463",
+  ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings": "6e5054423a650c32dae85c326732434d"
+}

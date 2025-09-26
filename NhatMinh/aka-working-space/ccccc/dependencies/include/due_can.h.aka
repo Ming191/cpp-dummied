@@ -1,0 +1,55 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::available()",
+      "start-type": "FunctionNode",
+      "start-md5": "82e3972df766c1d7832e6e0d714b712f",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "1dcfc1a57d0122534e0744f44efe4da5",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::read(CAN_FRAME\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c8080008ad7ba6aa21585e0c56ceb545",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::CANRaw(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "8c007acbfda71ecdd9c36b0c7126c171",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "97f2fe3185a85d5dc080bf153d80b2dd"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

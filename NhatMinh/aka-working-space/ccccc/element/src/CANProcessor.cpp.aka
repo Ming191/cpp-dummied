@@ -1,0 +1,9 @@
+{
+  "NAME_FILE": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp",
+  ".\\outlandnish_fw-ghost-drive\\\"CANProcessor.h\"": "b84f039530c5605001c9bdea1695ac9b",
+  ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME\u0026)": "aca9d9ba0fe13ccb266b388558902d6c",
+  ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateTelemetry(float,int)": "3f4af51bbb60ad0db9f92fbeb167227e",
+  ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::newVehicleData()": "22600251402fb6b2283783559c20f7bf",
+  ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)": "79d89f76331e224fa5cd185d8311848c",
+  ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateDashboard()": "43fa737c98d6c9c33ed50e315431240f"
+}

@@ -1,0 +1,11 @@
+{
+  "NAME_FILE": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+  ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\GearSensor::process()": "9c4b7b42d18bb8875c1f4f45a3a574c1",
+  ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::read(CAN_FRAME\u0026)": "c8080008ad7ba6aa21585e0c56ceb545",
+  ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME\u0026)": "1dcfc1a57d0122534e0744f44efe4da5",
+  ".\\outlandnish_fw-ghost-drive\\\"due_can.h\"": "64bafa9f84d88ff4742e4d9c12a6287d",
+  ".\\outlandnish_fw-ghost-drive\\\"GearSensor.h\"": "a2f1f03f9d8634b4960ef2f278a36fb9",
+  ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::available()": "82e3972df766c1d7832e6e0d714b712f",
+  ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\CANRaw::CANRaw(int)": "8c007acbfda71ecdd9c36b0c7126c171",
+  ".\\outlandnish_fw-ghost-drive\\\"SPI.h\"": "b830328ad34343fd0878b54c370720d6"
+}

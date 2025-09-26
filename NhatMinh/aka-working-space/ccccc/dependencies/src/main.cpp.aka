@@ -1,0 +1,191 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setup()",
+      "start-type": "FunctionNode",
+      "start-md5": "f20befea986b585dd33d10e493ed7974",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+      "start-type": "FunctionNode",
+      "start-md5": "51c677b3fc94a903ea0422f3bdb9d1e1",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+      "start-type": "FunctionNode",
+      "start-md5": "51c677b3fc94a903ea0422f3bdb9d1e1",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\\GearSensor::process()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9c4b7b42d18bb8875c1f4f45a3a574c1"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+      "start-type": "FunctionNode",
+      "start-md5": "51c677b3fc94a903ea0422f3bdb9d1e1",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h\\GearSensor\\getGear()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "dcbd2c08fd3339d3ae18ef2a5b2b7bd4"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\loop()",
+      "start-type": "FunctionNode",
+      "start-md5": "51c677b3fc94a903ea0422f3bdb9d1e1",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "82e77f89590ff16dc3966d34501575b4"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setupLightsAndButtons()",
+      "start-type": "FunctionNode",
+      "start-md5": "32a944871f720b9b5ca2e3b45e9f816b",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setupJoystick()",
+      "start-type": "FunctionNode",
+      "start-md5": "ab1d4d2350ee83587fe6ec0d4e80db85",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setupPotentiometers()",
+      "start-type": "FunctionNode",
+      "start-md5": "7669880a5e99d1126e827cd6359b9d67",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setupPotentiometers()",
+      "start-type": "FunctionNode",
+      "start-md5": "7669880a5e99d1126e827cd6359b9d67",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\begin()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9e75ce4680928b9f706344af005c8504"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setupCAN()",
+      "start-type": "FunctionNode",
+      "start-md5": "7f5d979379b33ebd6baf4dedfd2484fb",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\toggleEmulationMode()",
+      "start-type": "FunctionNode",
+      "start-md5": "10e9c4fea66c74248b4606f5cc69e67a",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setXAxis(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "beeb8038dec24e95438def55b826e86d"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setYAxis(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "bd163b062fa2eff5cdb93e3251d04403"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\setZAxis(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8f97737e9a135a3dbd4f3f1b1e91c53b"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\buttonForGear(Gear)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "16d342c204d72e62f843ee0f6d5dd68f"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\releaseButton(unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "210ca010bd6b2db27ef7ffb0cf93ebc1"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\pressButton(unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "75aef7c93ee9ba0861ba5edb0c907bd5"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\updatePose(Pose)",
+      "start-type": "FunctionNode",
+      "start-md5": "82e77f89590ff16dc3966d34501575b4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Joystick.h\\Joystick_\\sendState()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4285fc23055adebee06817e0e86e83d6"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\buttonForGear(Gear)",
+      "start-type": "FunctionNode",
+      "start-md5": "16d342c204d72e62f843ee0f6d5dd68f",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\processTelemetry(std::string)",
+      "start-type": "FunctionNode",
+      "start-md5": "ff70607a15fb73b69d05d90eb17cddb3",
+      "end": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

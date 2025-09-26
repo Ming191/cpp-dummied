@@ -1,0 +1,53 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">329     </b>  if(!error) {
+<b style="color: grey;">330     </b>    if(!typedict[&quot;IHDR&quot;]) std::cout &lt;&lt; &quot;Error: no IHDR chunk&quot; &lt;&lt; std::endl;
+<b style="color: grey;">331     </b>    if(!typedict[&quot;IDAT&quot;]) std::cout &lt;&lt; &quot;Error: no IDAT chunk&quot; &lt;&lt; std::endl;
+<b style="color: grey;">332     </b>    if(!typedict[&quot;IEND&quot;]) std::cout &lt;&lt; &quot;Error: no IEND chunk&quot; &lt;&lt; std::endl;
+<b style="color: grey;">333     </b>  }
+<b style="color: grey;">334     </b>}
+<b style="color: grey;">335     </b>
+<b style="color: grey;">336     </b>void RGBtoHSL(unsigned char r, unsigned char g, unsigned char b, unsigned char* h, unsigned char* s, unsigned char* l) {
+<b style="color: grey;">337     </b>  <b style="background-color:yellow;color:black";>int cmax = std::max&lt;int&gt;(r, std::max&lt;int&gt;(g, b));</b>
+<b style="color: grey;">338     </b>  <b style="background-color:yellow;color:black";>int cmin = std::min&lt;int&gt;(r, std::min&lt;int&gt;(g, b));</b>
+<b style="color: grey;">339     </b>  if(<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>cmin == cmax</b>) {
+<b style="color: grey;">340     </b>    <b style="background-color:yellow;color:black";>*h = *s = 0;</b>
+<b style="color: grey;">341     </b>    <b style="background-color:yellow;color:black";>*l = r;</b>
+<b style="color: grey;">342     </b>  } else {
+<b style="color: grey;">343     </b>    int sum = cmin + cmax;
+<b style="color: grey;">344     </b>    int diff = cmax - cmin;
+<b style="color: grey;">345     </b>    *l = sum / 2;
+<b style="color: grey;">346     </b>    *s = 255 * diff / ((*l &lt; 128) ? sum : (512 - sum));
+<b style="color: grey;">347     </b>    int hi = (r == cmax) ? (255 * (g - b) / diff) : ((g == cmax) ? (512 + 255 * (b - r) / diff) : (1024 + 255 * (r - g) / diff));
+<b style="color: grey;">348     </b>    *h = ((hi / 6) &amp; 255);
+...
+...
+...
+...
+<b style="color: grey;">350     </b>}
+<b style="color: grey;">351     </b>
+<b style="color: grey;">352     </b>/*
+<b style="color: grey;">353     </b>HCT: Hue, Chroma, Tone: returns a linear combination between a pure hue and a greyscale value.
+<b style="color: grey;">354     </b>*) Chroma: The linear combination factor: 255 for pure hue, 0 for pure greyscale
+<b style="color: grey;">355     </b>*) Tone: greyscale to mix with: 0 = black (shade), 255 = white (tint), in between = grey (tone)
+<b style="color: grey;">356     </b>*/
+<b style="color: grey;">357     </b>void RGBtoHCT(unsigned char r, unsigned char g, unsigned char b, unsigned char* h, unsigned char* c, unsigned char* t) {
+<b style="color: grey;">358     </b>  <b style="background-color:yellow;color:black";>int cmax = std::max&lt;int&gt;(r, std::max&lt;int&gt;(g, b));</b>
+<b style="color: grey;">359     </b>  <b style="background-color:yellow;color:black";>int cmin = std::min&lt;int&gt;(r, std::min&lt;int&gt;(g, b));</b>
+<b style="color: grey;">360     </b>  <b style="background-color:yellow;color:black";>RGBtoHSL(r, g, b, h, c, t);</b>
+<b style="color: grey;">361     </b>  <b style="background-color:yellow;color:black";>*c = cmax - cmin;</b>
+<b style="color: grey;">362     </b>  <b style="background-color:yellow;color:black";>*t = *c == 255 ? 0 : 255 * cmin / (255 + cmin - cmax);</b>
+<b style="color: grey;">363     </b>}
+<b style="color: grey;">364     </b>
+<b style="color: grey;">365     </b>// add 32 to get small letter instead of capital
+<b style="color: grey;">366     </b>char HueToLetter(int h) {
+<b style="color: grey;">367     </b>  char hl = &#39;R&#39;;
+<b style="color: grey;">368     </b>  // 12 unique hue letters for 30 degree increment hues.
+<b style="color: grey;">369     </b>  if(h &lt; 11 || h &gt;= 244) hl = &#39;R&#39;;  // red
+...
+...
+...
+...
+</pre>

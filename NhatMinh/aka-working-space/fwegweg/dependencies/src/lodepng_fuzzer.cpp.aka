@@ -1,0 +1,30 @@
+{
+  "path": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+  "dependency": [
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp\\LLVMFuzzerTestOneInput(uint8_t const*,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "e36714410de1e2d37708189952ad471c",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp\\",
+      "end-type": "LinkageSpecificationDeclaration",
+      "type": "RealParentDependency",
+      "end-md5": "3456773f7eaf89350e7ba7052f638ea9"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp\\testDecode(lodepng::State\u0026,uint8_t const*,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "7c9e1803252dede3c8066780863b797b",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp\\",
+      "end-type": "NamespaceNode",
+      "type": "RealParentDependency",
+      "end-md5": "9e7a122fb2a03fa6c16e7df85ccf633b"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

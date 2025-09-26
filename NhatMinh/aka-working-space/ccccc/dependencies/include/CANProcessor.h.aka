@@ -1,0 +1,69 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::updateTelemetry(float,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "3f4af51bbb60ad0db9f92fbeb167227e",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::newVehicleData()",
+      "start-type": "FunctionNode",
+      "start-md5": "22600251402fb6b2283783559c20f7bf",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+      "start-type": "FunctionNode",
+      "start-md5": "79d89f76331e224fa5cd185d8311848c",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "aca9d9ba0fe13ccb266b388558902d6c",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h\\CANProcessor",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f0fc1fa2175babc6ba4cab47693823d2"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\CANProcessor.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

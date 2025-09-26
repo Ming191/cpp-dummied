@@ -1,0 +1,17 @@
+BEGIN OF RGBTOHCT_UNSIGNED_CHAR_UNSIGNED_CHAR_UNSIGNED_CHAR_UNSIGNED_CHARMUL_UNSIGNED_CHARMUL_UNSIGNED_CHARMUL_MANUAL_0
+<<PRE-CALLING>> Test RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0
+Calling: .\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===358###sois===13876###eois===13925###lif===1###soif===124###eoif===173###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===359###sois===13929###eois===13978###lif===2###soif===177###eoif===226###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===360###sois===13982###eois===14009###lif===3###soif===230###eoif===257###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+Calling: .\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===337###sois===12998###eois===13047###lif===1###soif===124###eoif===173###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===338###sois===13051###eois===13100###lif===2###soif===177###eoif===226###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===339###sois===13107###eois===13119###lif===3###soif===233###eoif===245###ifc===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===339###sois===13107###eois===13119###lif===3###soif===233###eoif===245###isc===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===340###sois===13128###eois===13140###lif===4###soif===254###eoif===266###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===341###sois===13146###eois===13153###lif===5###soif===272###eoif===279###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===361###sois===14013###eois===14030###lif===4###soif===261###eoif===278###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+lis===362###sois===14034###eois===14088###lif===5###soif===282###eoif===336###ins===true###function===.\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+Return from: .\lvandeve_lodepng\src\pngdetail.cpp\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)
+END OF RGBTOHCT_UNSIGNED_CHAR_UNSIGNED_CHAR_UNSIGNED_CHAR_UNSIGNED_CHARMUL_UNSIGNED_CHARMUL_UNSIGNED_CHARMUL_MANUAL_0

@@ -1,0 +1,13 @@
+{
+  "NAME_FILE": ".\\outlandnish_fw-ghost-drive\\include\\due_can.h",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CAN_FRAME": "83d7918607784b2361c118c64bfba72a",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\uint32_t": "d41d8cd98f00b204e9800998ecf8427e",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CAN_FRAME_DATA\\": "c3ee3a60a2b9d44cddf44d6adb28bbb5",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\uint8_t": "d41d8cd98f00b204e9800998ecf8427e",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\int8_t": "d41d8cd98f00b204e9800998ecf8427e",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\int32_t": "d41d8cd98f00b204e9800998ecf8427e",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CAN_FRAME_DATA": "a77b27290231d1f2cea068f3b780c079",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\uint16_t": "d41d8cd98f00b204e9800998ecf8427e",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\int16_t": "d41d8cd98f00b204e9800998ecf8427e",
+  ".\\outlandnish_fw-ghost-drive\\include\\due_can.h\\CANRaw": "97f2fe3185a85d5dc080bf153d80b2dd"
+}

@@ -1,0 +1,16 @@
+/** Static counting variable **/
+static int AKA_INTRA_FCOUNT = 0;
+AKA_INTRA_FCOUNT++;
+
+/*******************************************************************************
+ * Stub code for subprogram in tested project.
+ * Initialize automatically by AKA.
+ *
+ * @unit: lodepng.cpp
+ * @name: boundaryPM(BPMLists*,BPMNode*,size_t,int,int)
+ * @path: .\lvandeve_lodepng\src\lodepng.cpp
+ *							\boundaryPM(BPMLists*,BPMNode*,size_t,int,int)
+ ******************************************************************************/
+
+/*{{START_DEFINE_TEST_CASE_MACRO}}*/
+/*{{END_DEFINE_TEST_CASE_MACRO}}*/

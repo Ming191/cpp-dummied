@@ -1,0 +1,19 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\GearSensor.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\Pose.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\Gear.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

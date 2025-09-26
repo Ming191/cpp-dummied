@@ -1,0 +1,389 @@
+{
+  "name": "encode_std_vector_unsigned_char_unsigned_char_constmul_unsigned_unsigned_State_manual_0",
+  "status": "N/A",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\fwegweg\\\\test-cases\\encode_std_vector_unsigned_char_unsigned_char_constmul_unsigned_unsigned_State_manual_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\fwegweg\\\\debugger\\\\breakpoints\\encode_std_vector_unsigned_char_unsigned_char_constmul_unsigned_unsigned_State_manual_0.br.json",
+  "creationDate": "2025-09-27T01:23:05.838006600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "lodepng.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.RootDataNode",
+            "name": "SBF",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+            "level": "SBF",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_free(void*)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "void",
+                "realType": "void",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_chunk_append(unsigned char**,size_t*,unsigned char const*)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_chunk_append(unsigned char**,size_t*,unsigned char const*)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGState*)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGState*)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode_memory(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode_memory(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode32(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode32(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode24(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode24(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode_file(char const*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode_file(char const*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode32_file(char const*,unsigned char const*,unsigned,unsigned)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode32_file(char const*,unsigned char const*,unsigned,unsigned)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encode24_file(char const*,unsigned char const*,unsigned,unsigned)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode24_file(char const*,unsigned char const*,unsigned,unsigned)"
+              },
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "lodepng_encoder_settings_init(LodePNGEncoderSettings*)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "void",
+                "realType": "void",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encoder_settings_init(LodePNGEncoderSettings*)"
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+            "paramExpectedOuputs": [],
+            "level": "GLOBAL"
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "unsigned",
+            "realType": "unsigned",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "out",
+                "virtual_name": "EXPECTED_out",
+                "dataType": "std::vector\u003cunsigned char\u003e",
+                "realType": "std::vector\u003cunsigned char\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\out",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "unsigned char"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "w",
+                "virtual_name": "EXPECTED_w",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\w",
+                "correspondingType": "unsigned",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "in",
+                "virtual_name": "EXPECTED_in",
+                "dataType": "unsigned char const*",
+                "realType": "unsigned char const*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\in",
+                "correspondingType": "",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "h",
+                "virtual_name": "EXPECTED_h",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\h",
+                "correspondingType": "unsigned",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "state",
+                "virtual_name": "EXPECTED_state",
+                "dataType": "State\u0026",
+                "realType": "State\u0026",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\state",
+                "correspondingType": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "out",
+                "virtual_name": "out",
+                "dataType": "std::vector\u003cunsigned char\u003e",
+                "realType": "std::vector\u003cunsigned char\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\out",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "unsigned char"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "in",
+                "virtual_name": "in",
+                "dataType": "unsigned char const*",
+                "realType": "unsigned char const*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\in",
+                "correspondingType": "",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "w",
+                "virtual_name": "w",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\w",
+                "correspondingType": "unsigned",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "h",
+                "virtual_name": "h",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\h",
+                "correspondingType": "unsigned",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "state",
+                "virtual_name": "state",
+                "dataType": "State\u0026",
+                "realType": "State\u0026",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\state",
+                "correspondingType": ".\\lvandeve_lodepng\\inc\\lodepng.h\\lodepng\\State"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "unsigned",
+                "realType": "unsigned",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)\\RETURN",
+                "correspondingType": "unsigned",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_benchmark.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "lodepng_encode",
+          "insert",
+          "end",
+          "lodepng_free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_fuzzer.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "lodepng_encode",
+          "insert",
+          "end",
+          "lodepng_free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_unittest.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "lodepng_encode",
+          "insert",
+          "end",
+          "lodepng_free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_util.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "lodepng_free(void*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\lodepng_free(void*)"
+          }
+        ],
+        "filteredCalledFunctions": [
+          "lodepng_encode",
+          "insert",
+          "end",
+          "lodepng_free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "pngdetail.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "lodepng_encode",
+          "insert",
+          "end",
+          "lodepng_free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\encode(std::vector\u003cunsigned char\u003e\u0026,unsigned char const*,unsigned,unsigned,State\u0026)",
+        "level": "STUB",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "SDL.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\lvandeve_lodepng\\inc\\SDL.h",
+            "children": [],
+            "filteredCalledFunctions": [
+              "lodepng_encode",
+              "insert",
+              "end",
+              "lodepng_free"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "buffer",
+      "isSelected": false,
+      "location": 166,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "lodepng_encode();",
+      "isSelected": false,
+      "location": 216,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "lodepng_free();",
+      "isSelected": false,
+      "location": 350,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

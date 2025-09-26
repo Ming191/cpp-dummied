@@ -1,0 +1,19 @@
+{
+  "compilationCommands": {
+    ".\\\\aka-working-space\\\\fwegweg\\\\test-drivers\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\\\aka-working-space\\\\fwegweg\\\\test-drivers\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\fwegweg\\\\instruments\\inc\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\fwegweg\\\\instruments\\inc\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\fwegweg\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\".\\\\aka-working-space\\\\fwegweg\\\\test-drivers\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.cpp.out\"\u003c\u003cAKA_U00A0\u003e\u003e-DAKA_TC_RGBTOHCT_UNSIGNED_CHAR_UNSIGNED_CHAR_UNSIGNED_CHAR_UNSIGNED_CHARMUL_UNSIGNED_CHARMUL_UNSIGNED_CHARMUL_MANUAL_0"
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": ".\\\\aka-working-space\\\\fwegweg\\\\exe\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\fwegweg\\\\instruments\\src\\lodepng.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\fwegweg\\\\instruments\\src\\lodepng_benchmark.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\fwegweg\\\\instruments\\src\\lodepng_fuzzer.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\fwegweg\\\\instruments\\src\\lodepng_unittest.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\fwegweg\\\\instruments\\src\\lodepng_util.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\fwegweg\\\\test-drivers\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.cpp.out"
+    ]
+  },
+  "executablePath": ".\\\\aka-working-space\\\\fwegweg\\\\exe\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.exe"
+}

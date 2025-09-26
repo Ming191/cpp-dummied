@@ -1,0 +1,16 @@
+/** Static counting variable **/
+static int AKA_INTRA_FCOUNT = 0;
+AKA_INTRA_FCOUNT++;
+
+/*******************************************************************************
+ * Stub code for subprogram in tested project.
+ * Initialize automatically by AKA.
+ *
+ * @unit: pngdetail.cpp
+ * @name: showHelp()
+ * @path: .\lvandeve_lodepng\src
+ *							\pngdetail.cpp\showHelp()
+ ******************************************************************************/
+
+/*{{START_DEFINE_TEST_CASE_MACRO}}*/
+/*{{END_DEFINE_TEST_CASE_MACRO}}*/

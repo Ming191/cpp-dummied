@@ -1,0 +1,12 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\XboxButtons.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\XboxButtons.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

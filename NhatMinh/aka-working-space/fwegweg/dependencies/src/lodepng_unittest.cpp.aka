@@ -1,0 +1,3572 @@
+{
+  "path": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+  "dependency": [
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "start-type": "FunctionNode",
+      "start-md5": "cafbac4d325252f24b7a5b1fa4ba51c8",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertEquals(T const\u0026,U const\u0026,std::string const\u0026\u003d \"\")",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "b3af867ddc568e17b5dec0416859b9ad",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "start-type": "FunctionNode",
+      "start-md5": "3377e8118b2012418fed6a2f8e7738ca",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(unsigned char const*,size_t,unsigned*,unsigned*,unsigned*,unsigned*)",
+      "start-type": "FunctionNode",
+      "start-md5": "b22932cd135e48ffd1294719d72867fb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8e22b788032c024dd4496cfb24e4f1ed",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b148cb74be770597264fe0b6242e5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testGetFilterTypes()",
+      "start-type": "FunctionNode",
+      "start-md5": "cc9c1ff39b7ba229e875a0aca0de3c09",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e8e70a948638f1504cf3b8c133e9a2e1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "start-type": "FunctionNode",
+      "start-md5": "d95b260e92ae62314463754c82e9a0f1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "start-type": "FunctionNode",
+      "start-md5": "3a7cebd5e3f47698d51f41398081ad03",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteFilterTypesZero()",
+      "start-type": "FunctionNode",
+      "start-md5": "9ae9b4e25d13a627b1cffccd171d7981",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "79af1d91919e3b6e0f8c6c782d1bdbc7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doRGBAToPaletteTest(unsigned char*,size_t,LodePNGColorType\u003d LCT_PALETTE)",
+      "start-type": "FunctionNode",
+      "start-md5": "14a1a70e8370ebd5e15f38f842169cc3",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorKeyConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "85eddc7a4daf27409b06635a0c3d2715",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testNoAutoConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "b98b1da2b7ac68b90d1c5055e26c7531",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "7356b7af3c153c807d69d11c3034e647",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress2()",
+      "start-type": "FunctionNode",
+      "start-md5": "41215e7e6f1eecc0949f4d45389d985a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomDeflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "644baebbd801f9044ccba42d0e7e3fac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibDecompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "d3b5e18aff9bf04134d2eb1abc6d6137",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomInflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "99ef9b8a2398f0ca55f80c4d4861ad05",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "start-type": "FunctionNode",
+      "start-md5": "c35c83315852c82f32b510ac673127fe",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\test16bitColorEndianness()",
+      "start-type": "FunctionNode",
+      "start-md5": "9aea7b437f3789ac5ccbdca6909505a0",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testEncoderErrors()",
+      "start-type": "FunctionNode",
+      "start-md5": "7c0a3507277a4653cdc6618296449a92",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModel(std::vector\u003cunsigned char\u003econst\u0026,unsigned,LodePNGColorType,unsigned,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "1b6f1b2612b41817ed562a0395e7d9b6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode()",
+      "start-type": "FunctionNode",
+      "start-md5": "c4bd79a7e35bbad9c2cbdcf66228c84e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "start-type": "FunctionNode",
+      "start-md5": "a411dd3498d59ac44df995149f70becb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertExifDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "62d940a84afd91157b07e6b0b50a6739",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertColorProfileDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "4db67ab0649266fcc7e74a26ee773b4f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "start-type": "FunctionNode",
+      "start-md5": "c0215fd994fdd3911000b77c20edd5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "4546dbea476032e1a9577ccfa02ad9d1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "dacabf6def304a3440b2dae146b61f1d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fail()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cafbac4d325252f24b7a5b1fa4ba51c8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(unsigned char const\u0026)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "7b75b57de84e469300c163a2ea0b67b8",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "2747742a3095df47b6f9ec759adfc765",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(unsigned char const*,size_t,unsigned*,unsigned*,unsigned*,unsigned*)",
+      "start-type": "FunctionNode",
+      "start-md5": "b22932cd135e48ffd1294719d72867fb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "811670e761a352e72c4096482786e8ff",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8e22b788032c024dd4496cfb24e4f1ed",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b148cb74be770597264fe0b6242e5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testGetFilterTypes()",
+      "start-type": "FunctionNode",
+      "start-md5": "cc9c1ff39b7ba229e875a0aca0de3c09",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e8e70a948638f1504cf3b8c133e9a2e1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "start-type": "FunctionNode",
+      "start-md5": "3a7cebd5e3f47698d51f41398081ad03",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteFilterTypesZero()",
+      "start-type": "FunctionNode",
+      "start-md5": "9ae9b4e25d13a627b1cffccd171d7981",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "79af1d91919e3b6e0f8c6c782d1bdbc7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doRGBAToPaletteTest(unsigned char*,size_t,LodePNGColorType\u003d LCT_PALETTE)",
+      "start-type": "FunctionNode",
+      "start-md5": "14a1a70e8370ebd5e15f38f842169cc3",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorKeyConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "85eddc7a4daf27409b06635a0c3d2715",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testNoAutoConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "b98b1da2b7ac68b90d1c5055e26c7531",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "7356b7af3c153c807d69d11c3034e647",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress2()",
+      "start-type": "FunctionNode",
+      "start-md5": "41215e7e6f1eecc0949f4d45389d985a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomDeflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "644baebbd801f9044ccba42d0e7e3fac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibDecompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "d3b5e18aff9bf04134d2eb1abc6d6137",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomInflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "99ef9b8a2398f0ca55f80c4d4861ad05",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "start-type": "FunctionNode",
+      "start-md5": "c35c83315852c82f32b510ac673127fe",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\test16bitColorEndianness()",
+      "start-type": "FunctionNode",
+      "start-md5": "9aea7b437f3789ac5ccbdca6909505a0",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testEncoderErrors()",
+      "start-type": "FunctionNode",
+      "start-md5": "7c0a3507277a4653cdc6618296449a92",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModel(std::vector\u003cunsigned char\u003econst\u0026,unsigned,LodePNGColorType,unsigned,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "1b6f1b2612b41817ed562a0395e7d9b6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode()",
+      "start-type": "FunctionNode",
+      "start-md5": "c4bd79a7e35bbad9c2cbdcf66228c84e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "start-type": "FunctionNode",
+      "start-md5": "a411dd3498d59ac44df995149f70becb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertExifDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "62d940a84afd91157b07e6b0b50a6739",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertColorProfileDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "4db67ab0649266fcc7e74a26ee773b4f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "start-type": "FunctionNode",
+      "start-md5": "c0215fd994fdd3911000b77c20edd5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "4546dbea476032e1a9577ccfa02ad9d1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "dacabf6def304a3440b2dae146b61f1d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const\u0026)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2747742a3095df47b6f9ec759adfc765"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(T const*)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "c9a7a95aef7e35fd97f825e4a753694a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertEquals(T const\u0026,U const\u0026,std::string const\u0026\u003d \"\")",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "b3af867ddc568e17b5dec0416859b9ad",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "start-type": "FunctionNode",
+      "start-md5": "3377e8118b2012418fed6a2f8e7738ca",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3377e8118b2012418fed6a2f8e7738ca"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8e22b788032c024dd4496cfb24e4f1ed",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3377e8118b2012418fed6a2f8e7738ca"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e8e70a948638f1504cf3b8c133e9a2e1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3377e8118b2012418fed6a2f8e7738ca"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3377e8118b2012418fed6a2f8e7738ca"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\extractChunkNames(std::vector\u003cunsigned char\u003econst\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "026c6b96f017d84126d07d3c1d81266f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertTrue(bool,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3377e8118b2012418fed6a2f8e7738ca"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "start-type": "FunctionNode",
+      "start-md5": "7bb8fbd479c7ed29b3546f9de9b77169",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "start-type": "FunctionNode",
+      "start-md5": "7bb8fbd479c7ed29b3546f9de9b77169",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_error_text(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "711d2bf1b6be631e0978f802df9958ee"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8e22b788032c024dd4496cfb24e4f1ed",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b148cb74be770597264fe0b6242e5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e8e70a948638f1504cf3b8c133e9a2e1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "start-type": "FunctionNode",
+      "start-md5": "d95b260e92ae62314463754c82e9a0f1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testDiskPNG(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "4f35bf4908532e7088cbe5044617b7f4",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doTestHuffmanCodeLengths(std::string const\u0026,std::string const\u0026,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "ae7f8cfb91984a2701a00aedf50ea5c1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5fde3e86defa63d147ae9aaf9f13c931",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "start-type": "FunctionNode",
+      "start-md5": "3a7cebd5e3f47698d51f41398081ad03",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "79af1d91919e3b6e0f8c6c782d1bdbc7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doRGBAToPaletteTest(unsigned char*,size_t,LodePNGColorType\u003d LCT_PALETTE)",
+      "start-type": "FunctionNode",
+      "start-md5": "14a1a70e8370ebd5e15f38f842169cc3",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorKeyConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "85eddc7a4daf27409b06635a0c3d2715",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testNoAutoConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "b98b1da2b7ac68b90d1c5055e26c7531",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress2()",
+      "start-type": "FunctionNode",
+      "start-md5": "41215e7e6f1eecc0949f4d45389d985a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibDecompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "d3b5e18aff9bf04134d2eb1abc6d6137",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomInflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "99ef9b8a2398f0ca55f80c4d4861ad05",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\test16bitColorEndianness()",
+      "start-type": "FunctionNode",
+      "start-md5": "9aea7b437f3789ac5ccbdca6909505a0",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "start-type": "FunctionNode",
+      "start-md5": "a411dd3498d59ac44df995149f70becb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "start-type": "FunctionNode",
+      "start-md5": "c0215fd994fdd3911000b77c20edd5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "323ca543bcfdcc950222f578f7efd5fd",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "1c05e3ea239eb7c3088664928db58632",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "dacabf6def304a3440b2dae146b61f1d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoPNGError(unsigned,std::string const\u0026\u003d \"\")",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bb8fbd479c7ed29b3546f9de9b77169"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "578068f21692f2ca994551085eed6487",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "start-type": "FunctionNode",
+      "start-md5": "c35c83315852c82f32b510ac673127fe",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "4546dbea476032e1a9577ccfa02ad9d1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "dacabf6def304a3440b2dae146b61f1d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertNoError(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "578068f21692f2ca994551085eed6487"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\isNear(T,U,V)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "0b7293a708e137fd5375b068e3000c11",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\isNear(T,U,V)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0b7293a708e137fd5375b068e3000c11"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\isNear(T,U,V)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0b7293a708e137fd5375b068e3000c11"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\isNear(T,U,V)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0b7293a708e137fd5375b068e3000c11"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\isNear(T,U,V)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0b7293a708e137fd5375b068e3000c11"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\diff(T,U)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "11f200311db0e0faf21ef718e3a5173a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\diff(T,U)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "11f200311db0e0faf21ef718e3a5173a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\diff(T,U)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "11f200311db0e0faf21ef718e3a5173a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\diff(T,U)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "11f200311db0e0faf21ef718e3a5173a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\diff(T,U)",
+      "end-type": "TemplateFunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "11f200311db0e0faf21ef718e3a5173a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\toBase64(T\u0026,U const\u0026)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "d6725736a7ff7080fdf170fb6459fc54",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\valtostr(std::vector\u003cT\u003econst\u0026)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "b8da8b1546d56ae90b771057b90ed875",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fromBase64(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "294b4bf2a2f5038831973d2bbe7f9b8d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\fromBase64(T\u0026,U const\u0026)",
+      "start-type": "TemplateFunctionNode",
+      "start-md5": "0def481964e1b6a414ea74a85ae5c07e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\leftrotate(unsigned,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "f6969042d3f4838396855d6e6049c96f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(unsigned char const*,size_t,unsigned*,unsigned*,unsigned*,unsigned*)",
+      "start-type": "FunctionNode",
+      "start-md5": "b22932cd135e48ffd1294719d72867fb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\leftrotate(unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f6969042d3f4838396855d6e6049c96f"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\getRandom()",
+      "start-type": "FunctionNode",
+      "start-md5": "a343f61fdbf5744da47be2ba170bfdaf",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\getRandom()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "a343f61fdbf5744da47be2ba170bfdaf"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(unsigned char const*,size_t,unsigned*,unsigned*,unsigned*,unsigned*)",
+      "start-type": "FunctionNode",
+      "start-md5": "b22932cd135e48ffd1294719d72867fb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(unsigned char const*,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "40cacc9666f125b237bc05ca5e8d1e11",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(unsigned char const*,size_t)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "40cacc9666f125b237bc05ca5e8d1e11"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\md5sum(std::vector\u003cunsigned char\u003econst\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ad5de1698f00d73fdb1d319e8a3bbcae",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\getNumColorChannels(unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "c33e7d8463ac1d8f34e1b50b92bdda1d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImageRequiringColorType16(Image\u0026,LodePNGColorType,unsigned,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "edc4bdea7bcdaf4c01e35dcf71063241",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "323ca543bcfdcc950222f578f7efd5fd",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImageRequiringColorType16(Image\u0026,LodePNGColorType,unsigned,bool)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "edc4bdea7bcdaf4c01e35dcf71063241"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "1c05e3ea239eb7c3088664928db58632",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImageRequiringColorType16(Image\u0026,LodePNGColorType,unsigned,bool)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "edc4bdea7bcdaf4c01e35dcf71063241"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "start-type": "FunctionNode",
+      "start-md5": "f7c21a79afdabddfab1aafcea566919e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "start-type": "FunctionNode",
+      "start-md5": "f7c21a79afdabddfab1aafcea566919e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\getNumColorChannels(LodePNGColorType)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "ae7bdb9d823c9039155fa6533cc44039"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\codecTest(unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "start-type": "FunctionNode",
+      "start-md5": "97f6c584016177f8e16f7ad2f026a4d8",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "7356b7af3c153c807d69d11c3034e647",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress2()",
+      "start-type": "FunctionNode",
+      "start-md5": "41215e7e6f1eecc0949f4d45389d985a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomDeflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "644baebbd801f9044ccba42d0e7e3fac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibDecompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "d3b5e18aff9bf04134d2eb1abc6d6137",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomInflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "99ef9b8a2398f0ca55f80c4d4861ad05",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "start-type": "FunctionNode",
+      "start-md5": "c35c83315852c82f32b510ac673127fe",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testEncoderErrors()",
+      "start-type": "FunctionNode",
+      "start-md5": "7c0a3507277a4653cdc6618296449a92",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImage(Image\u0026,unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f7c21a79afdabddfab1aafcea566919e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImageRequiringColorType8(Image\u0026,LodePNGColorType,unsigned,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "cf137a4558f58beba63442c8273a7647",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "start-type": "FunctionNode",
+      "start-md5": "c0215fd994fdd3911000b77c20edd5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\generateTestImageRequiringColorType8(Image\u0026,LodePNGColorType,unsigned,bool)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cf137a4558f58beba63442c8273a7647"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "811670e761a352e72c4096482786e8ff",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "811670e761a352e72c4096482786e8ff",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\getNumColorChannels(LodePNGColorType)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "ae7bdb9d823c9039155fa6533cc44039"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "811670e761a352e72c4096482786e8ff"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8e22b788032c024dd4496cfb24e4f1ed",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "811670e761a352e72c4096482786e8ff"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b148cb74be770597264fe0b6242e5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "811670e761a352e72c4096482786e8ff"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e8e70a948638f1504cf3b8c133e9a2e1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertPixels(Image\u0026,unsigned char const*,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "811670e761a352e72c4096482786e8ff"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_encode_memory(unsigned char**,size_t*,unsigned char const*,unsigned,unsigned,LodePNGColorType,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7fe1a90a7bbc9899225bbe7eff699545"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_error_text(unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "711d2bf1b6be631e0978f802df9958ee"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_decode_memory(unsigned char**,unsigned*,unsigned*,unsigned char const*,size_t,LodePNGColorType,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "ce53449d85239487ac65c20483281601"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c852d4bf2d59989bfd0c296b76d12aa5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestC(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "ee6e2b57a1bfdc1a0b80931024a7cab1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8e22b788032c024dd4496cfb24e4f1ed",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c852d4bf2d59989bfd0c296b76d12aa5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestCPP(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8e22b788032c024dd4496cfb24e4f1ed"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestNoLZ77(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "841760a19422d209f68373ac0f9d7193",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestNoLZ77(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "841760a19422d209f68373ac0f9d7193",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0b148cb74be770597264fe0b6242e5ef"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c852d4bf2d59989bfd0c296b76d12aa5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestNoLZ77(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "841760a19422d209f68373ac0f9d7193"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestUncompressed(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2c967f4d9b64edfb39c11ddc6129966b",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestUncompressed(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2c967f4d9b64edfb39c11ddc6129966b",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0b148cb74be770597264fe0b6242e5ef"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c852d4bf2d59989bfd0c296b76d12aa5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestUncompressed(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2c967f4d9b64edfb39c11ddc6129966b"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestWithEncState(Image\u0026,lodepng::State\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b148cb74be770597264fe0b6242e5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testGetFilterTypes()",
+      "start-type": "FunctionNode",
+      "start-md5": "cc9c1ff39b7ba229e875a0aca0de3c09",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testGetFilterTypes()",
+      "start-type": "FunctionNode",
+      "start-md5": "cc9c1ff39b7ba229e875a0aca0de3c09",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\getFilterTypes(std::vector\u003cunsigned char\u003e\u0026,std::vector\u003cunsigned char\u003econst\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8ad6411644cac4dfce6696de81376323"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testGetFilterTypes()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "cc9c1ff39b7ba229e875a0aca0de3c09"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e8e70a948638f1504cf3b8c133e9a2e1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c852d4bf2d59989bfd0c296b76d12aa5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTestInterlaced(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "e8e70a948638f1504cf3b8c133e9a2e1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "c852d4bf2d59989bfd0c296b76d12aa5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\codecTest(unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "start-type": "FunctionNode",
+      "start-md5": "97f6c584016177f8e16f7ad2f026a4d8",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testOtherPattern2()",
+      "start-type": "FunctionNode",
+      "start-md5": "5e21fe5d50c0e3ae4dcfa45617a9a23a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testOtherPattern1()",
+      "start-type": "FunctionNode",
+      "start-md5": "0be6a04332e343d1155d2c88ecfab038",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSinglePixel(int,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "8b809d52da783b408b4d6e6e18dbed3c",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColor(int,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "a353d700efeab6d647eb2403a9e3c8e9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSize(unsigned,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "8dc7398aed1e523e941b07bfe3262cc1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFewColors()",
+      "start-type": "FunctionNode",
+      "start-md5": "78d1c4337ca3a14b80ee1c734ed78a12",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testDiskPNG(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "4f35bf4908532e7088cbe5044617b7f4",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doCodecTest(Image\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c852d4bf2d59989bfd0c296b76d12aa5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\codecTest(unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "start-type": "FunctionNode",
+      "start-md5": "97f6c584016177f8e16f7ad2f026a4d8",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "start-type": "FunctionNode",
+      "start-md5": "199e4e002ab30416a03f2d1af01f31b7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\codecTest(unsigned,unsigned,LodePNGColorType\u003d LCT_RGBA,unsigned\u003d 8)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "97f6c584016177f8e16f7ad2f026a4d8"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\removeSpaces(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2bf837aa60705195a573e7b959c556c4",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\bitStringToBytes(std::vector\u003cunsigned char\u003e\u0026,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "a9103211fbc40ab0be9af8333b872f74",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\removeSpaces(std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2bf837aa60705195a573e7b959c556c4"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\bitStringToBytes(std::vector\u003cunsigned char\u003e\u0026,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "a9103211fbc40ab0be9af8333b872f74",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\bitStringToBytes(std::vector\u003cunsigned char\u003e\u0026,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "a9103211fbc40ab0be9af8333b872f74"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4dad584063451e51d6a98290d9977857"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "7108a4fd90ecacd97e0ceabf344dbce9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_cleanup(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4440c902f35196826e16ff17e295fd17"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "b318558c4c9ea82df3bc3285dd8a9b4e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\colorConvertTest(std::string const\u0026,LodePNGColorType,unsigned,std::string const\u0026,LodePNGColorType,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7108a4fd90ecacd97e0ceabf344dbce9"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testOtherPattern2()",
+      "start-type": "FunctionNode",
+      "start-md5": "5e21fe5d50c0e3ae4dcfa45617a9a23a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "start-type": "FunctionNode",
+      "start-md5": "199e4e002ab30416a03f2d1af01f31b7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testOtherPattern2()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5e21fe5d50c0e3ae4dcfa45617a9a23a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testOtherPattern1()",
+      "start-type": "FunctionNode",
+      "start-md5": "0be6a04332e343d1155d2c88ecfab038",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "start-type": "FunctionNode",
+      "start-md5": "199e4e002ab30416a03f2d1af01f31b7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testOtherPattern1()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0be6a04332e343d1155d2c88ecfab038"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSinglePixel(int,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "8b809d52da783b408b4d6e6e18dbed3c",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColor(int,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "a353d700efeab6d647eb2403a9e3c8e9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSinglePixel(int,int,int,int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8b809d52da783b408b4d6e6e18dbed3c"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColor(int,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "a353d700efeab6d647eb2403a9e3c8e9",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "start-type": "FunctionNode",
+      "start-md5": "199e4e002ab30416a03f2d1af01f31b7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColor(int,int,int,int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "a353d700efeab6d647eb2403a9e3c8e9"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "start-type": "FunctionNode",
+      "start-md5": "199e4e002ab30416a03f2d1af01f31b7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "start-type": "FunctionNode",
+      "start-md5": "199e4e002ab30416a03f2d1af01f31b7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSize(unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8dc7398aed1e523e941b07bfe3262cc1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPNGCodec()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "199e4e002ab30416a03f2d1af01f31b7"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSize(unsigned,unsigned)",
+      "start-type": "FunctionNode",
+      "start-md5": "8dc7398aed1e523e941b07bfe3262cc1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFewColors()",
+      "start-type": "FunctionNode",
+      "start-md5": "78d1c4337ca3a14b80ee1c734ed78a12",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFewColors()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "78d1c4337ca3a14b80ee1c734ed78a12"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "start-type": "FunctionNode",
+      "start-md5": "d95b260e92ae62314463754c82e9a0f1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "start-type": "FunctionNode",
+      "start-md5": "d95b260e92ae62314463754c82e9a0f1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "start-type": "FunctionNode",
+      "start-md5": "d95b260e92ae62314463754c82e9a0f1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f0d84a8dac19416f68faeb7f228c21"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "start-type": "FunctionNode",
+      "start-md5": "d95b260e92ae62314463754c82e9a0f1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4dad584063451e51d6a98290d9977857"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert2()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "d95b260e92ae62314463754c82e9a0f1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_zlib_compress(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGCompressSettings const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "647f871241e902d595067f6a660168ac"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "f4c4db6f1423382f7057d90903145968",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_zlib_decompress(unsigned char**,size_t*,unsigned char const*,size_t,LodePNGDecompressSettings const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "258b9e3db093b8012a0af1ca8d57b62b"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testDiskCompressZlib(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "53910f72dd258a9f08e3a842a5cd933a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f4c4db6f1423382f7057d90903145968"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressZlib()",
+      "start-type": "FunctionNode",
+      "start-md5": "f6442d7a4c6f686dc6c5d85e558e5cad",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressStringZlib(std::string const\u0026,bool)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f4c4db6f1423382f7057d90903145968"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testDiskCompressZlib(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "53910f72dd258a9f08e3a842a5cd933a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testDiskCompressZlib(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "53910f72dd258a9f08e3a842a5cd933a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng\\load_file(std::vector\u003cunsigned char\u003e\u0026,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f8b3bf7721146edbc180a41b2e673d"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testDiskPNG(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "4f35bf4908532e7088cbe5044617b7f4",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\strtovector(std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "9eaf48a7ee143647e5e07cc8ec3c9121",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doTestHuffmanCodeLengths(std::string const\u0026,std::string const\u0026,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "ae7f8cfb91984a2701a00aedf50ea5c1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\strtovector(std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9eaf48a7ee143647e5e07cc8ec3c9121"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "b318558c4c9ea82df3bc3285dd8a9b4e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorConvert()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b318558c4c9ea82df3bc3285dd8a9b4e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testHuffmanCodeLengths()",
+      "start-type": "FunctionNode",
+      "start-md5": "f5f3a8902217c613b8da40257892a71b",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testHuffmanCodeLengths()",
+      "start-type": "FunctionNode",
+      "start-md5": "f5f3a8902217c613b8da40257892a71b",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doTestHuffmanCodeLengths(std::string const\u0026,std::string const\u0026,size_t)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "ae7f8cfb91984a2701a00aedf50ea5c1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testHuffmanCodeLengths()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f5f3a8902217c613b8da40257892a71b"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doTestHuffmanCodeLengths(std::string const\u0026,std::string const\u0026,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "ae7f8cfb91984a2701a00aedf50ea5c1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doTestHuffmanCodeLengths(std::string const\u0026,std::string const\u0026,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "ae7f8cfb91984a2701a00aedf50ea5c1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_huffman_code_lengths(unsigned*,unsigned const*,size_t,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "a45aa510ec0c94062e5bea3f8c3288fa"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5fde3e86defa63d147ae9aaf9f13c931",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5fde3e86defa63d147ae9aaf9f13c931",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f0d84a8dac19416f68faeb7f228c21"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5fde3e86defa63d147ae9aaf9f13c931",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_add_text(LodePNGInfo*,char const*,char const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "53af933bc5c0047499c9290d75957568"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5fde3e86defa63d147ae9aaf9f13c931",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_add_itext(LodePNGInfo*,char const*,char const*,char const*,char const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "ba53512d1b22ef9feb1275537179e452"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5fde3e86defa63d147ae9aaf9f13c931",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_chunk_create(unsigned char**,size_t*,size_t,char const*,unsigned char const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9208af1376e54c7ad9b7673965367dfa"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "start-type": "FunctionNode",
+      "start-md5": "3a7cebd5e3f47698d51f41398081ad03",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5fde3e86defa63d147ae9aaf9f13c931"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5fde3e86defa63d147ae9aaf9f13c931"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteFilterTypesZero()",
+      "start-type": "FunctionNode",
+      "start-md5": "9ae9b4e25d13a627b1cffccd171d7981",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5fde3e86defa63d147ae9aaf9f13c931"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFuzzing()",
+      "start-type": "FunctionNode",
+      "start-md5": "0c227ec98083d9608ff8b50e7b29b64c",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5fde3e86defa63d147ae9aaf9f13c931"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\createComplexPNG(std::vector\u003cunsigned char\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5fde3e86defa63d147ae9aaf9f13c931"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressZlib()",
+      "start-type": "FunctionNode",
+      "start-md5": "f6442d7a4c6f686dc6c5d85e558e5cad",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCompressZlib()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f6442d7a4c6f686dc6c5d85e558e5cad"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "start-type": "FunctionNode",
+      "start-md5": "3a7cebd5e3f47698d51f41398081ad03",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "start-type": "FunctionNode",
+      "start-md5": "3a7cebd5e3f47698d51f41398081ad03",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\extractChunkNames(std::vector\u003cunsigned char\u003econst\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "026c6b96f017d84126d07d3c1d81266f"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testComplexPNG()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3a7cebd5e3f47698d51f41398081ad03"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_inspect(unsigned*,unsigned*,LodePNGState*,unsigned char const*,size_t)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "10af36778a153665085498b2bb3251c9"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_chunk_find(unsigned char*,unsigned char*,char const[5])",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "a7eda93da89698cb6a2942fb87d0b552"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_inspect_chunk(LodePNGState*,size_t,unsigned char const*,size_t)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9da6b16da240e3cb9e76ffa0c97fa68c"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "00924c43b52443484975b7554b128126",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_chunk_find_const(unsigned char const*,unsigned char const*,char const[5])",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0449f03c9a37edbfc9901fd040eba000"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testInspectChunk()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "00924c43b52443484975b7554b128126"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\extractChunkNames(std::vector\u003cunsigned char\u003econst\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "026c6b96f017d84126d07d3c1d81266f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\extractChunkNames(std::vector\u003cunsigned char\u003econst\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "026c6b96f017d84126d07d3c1d81266f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_chunk_type(char[5],unsigned char const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "3f5eb8c34ecf2cfa25413e64771202b9"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\extractChunkNames(std::vector\u003cunsigned char\u003econst\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "026c6b96f017d84126d07d3c1d81266f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_chunk_next_const(unsigned char const*,unsigned char const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f1da94ea1fc060d0e09b51072a3f866b"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\extractChunkNames(std::vector\u003cunsigned char\u003econst\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "026c6b96f017d84126d07d3c1d81266f"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteFilterTypesZero()",
+      "start-type": "FunctionNode",
+      "start-md5": "9ae9b4e25d13a627b1cffccd171d7981",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteFilterTypesZero()",
+      "start-type": "FunctionNode",
+      "start-md5": "9ae9b4e25d13a627b1cffccd171d7981",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\getFilterTypes(std::vector\u003cunsigned char\u003e\u0026,std::vector\u003cunsigned char\u003econst\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8ad6411644cac4dfce6696de81376323"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteFilterTypesZero()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9ae9b4e25d13a627b1cffccd171d7981"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "79af1d91919e3b6e0f8c6c782d1bdbc7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "79af1d91919e3b6e0f8c6c782d1bdbc7",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f0d84a8dac19416f68faeb7f228c21"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteConvert()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "79af1d91919e3b6e0f8c6c782d1bdbc7"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doRGBAToPaletteTest(unsigned char*,size_t,LodePNGColorType\u003d LCT_PALETTE)",
+      "start-type": "FunctionNode",
+      "start-md5": "14a1a70e8370ebd5e15f38f842169cc3",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testRGBToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "265156bf3d64897d4631358ab1217f56",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doRGBAToPaletteTest(unsigned char*,size_t,LodePNGColorType\u003d LCT_PALETTE)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "14a1a70e8370ebd5e15f38f842169cc3"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorKeyConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "85eddc7a4daf27409b06635a0c3d2715",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorKeyConvert()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "85eddc7a4daf27409b06635a0c3d2715"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testNoAutoConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "b98b1da2b7ac68b90d1c5055e26c7531",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testNoAutoConvert()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b98b1da2b7ac68b90d1c5055e26c7531"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\flipBit(unsigned char,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "59a323f275ff710f40fb9e38c18b92bf",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFuzzing()",
+      "start-type": "FunctionNode",
+      "start-md5": "0c227ec98083d9608ff8b50e7b29b64c",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\flipBit(unsigned char,int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "59a323f275ff710f40fb9e38c18b92bf"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFuzzing()",
+      "start-type": "FunctionNode",
+      "start-md5": "0c227ec98083d9608ff8b50e7b29b64c",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testFuzzing()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0c227ec98083d9608ff8b50e7b29b64c"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "7356b7af3c153c807d69d11c3034e647",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7356b7af3c153c807d69d11c3034e647"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress2()",
+      "start-type": "FunctionNode",
+      "start-md5": "41215e7e6f1eecc0949f4d45389d985a",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibCompress2()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "41215e7e6f1eecc0949f4d45389d985a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testRGBToPaletteConvert()",
+      "start-type": "FunctionNode",
+      "start-md5": "265156bf3d64897d4631358ab1217f56",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testRGBToPaletteConvert()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "265156bf3d64897d4631358ab1217f56"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomDeflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "644baebbd801f9044ccba42d0e7e3fac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomDeflate()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "644baebbd801f9044ccba42d0e7e3fac"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibDecompress()",
+      "start-type": "FunctionNode",
+      "start-md5": "d3b5e18aff9bf04134d2eb1abc6d6137",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomZlibDecompress()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "d3b5e18aff9bf04134d2eb1abc6d6137"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomInflate()",
+      "start-type": "FunctionNode",
+      "start-md5": "99ef9b8a2398f0ca55f80c4d4861ad05",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testCustomInflate()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "99ef9b8a2398f0ca55f80c4d4861ad05"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "start-type": "FunctionNode",
+      "start-md5": "c35c83315852c82f32b510ac673127fe",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "start-type": "FunctionNode",
+      "start-md5": "c35c83315852c82f32b510ac673127fe",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\getFilterTypes(std::vector\u003cunsigned char\u003e\u0026,std::vector\u003cunsigned char\u003econst\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8ad6411644cac4dfce6696de81376323"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPredefinedFilters()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c35c83315852c82f32b510ac673127fe"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\test16bitColorEndianness()",
+      "start-type": "FunctionNode",
+      "start-md5": "9aea7b437f3789ac5ccbdca6909505a0",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\test16bitColorEndianness()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9aea7b437f3789ac5ccbdca6909505a0"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\getChunks(std::vector\u003cstd::string\u003e[3],std::vector\u003cstd::vector\u003cunsigned char\u003e\u003e[3],std::vector\u003cunsigned char\u003econst\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "76bac349af12fa6588943858cc18d470"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "start-type": "FunctionNode",
+      "start-md5": "e13f34bf0c9d49d18550d7f139ea9375",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\insertChunks(std::vector\u003cunsigned char\u003e\u0026,std::vector\u003cstd::vector\u003cunsigned char\u003e\u003econst[3])",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "db77e30fcdb601ef555652b6b6856c0c"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChunkUtil()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "e13f34bf0c9d49d18550d7f139ea9375"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testEncoderErrors()",
+      "start-type": "FunctionNode",
+      "start-md5": "7c0a3507277a4653cdc6618296449a92",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testEncoderErrors()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7c0a3507277a4653cdc6618296449a92"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\addColor(std::vector\u003cunsigned char\u003e\u0026,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "4834347614e5d169c12f6ed3a12453bf",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModels()",
+      "start-type": "FunctionNode",
+      "start-md5": "e26a08f20c95b0fa5ff1b71b0f00fb0d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\addColor(std::vector\u003cunsigned char\u003e\u0026,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4834347614e5d169c12f6ed3a12453bf"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModel(std::vector\u003cunsigned char\u003econst\u0026,unsigned,LodePNGColorType,unsigned,bool)",
+      "start-type": "FunctionNode",
+      "start-md5": "1b6f1b2612b41817ed562a0395e7d9b6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModels()",
+      "start-type": "FunctionNode",
+      "start-md5": "e26a08f20c95b0fa5ff1b71b0f00fb0d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModel(std::vector\u003cunsigned char\u003econst\u0026,unsigned,LodePNGColorType,unsigned,bool)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "1b6f1b2612b41817ed562a0395e7d9b6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\addColor16(std::vector\u003cunsigned char\u003e\u0026,unsigned short,unsigned short,unsigned short,unsigned short)",
+      "start-type": "FunctionNode",
+      "start-md5": "85e3e975626a595838e211c66276cac6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModels()",
+      "start-type": "FunctionNode",
+      "start-md5": "e26a08f20c95b0fa5ff1b71b0f00fb0d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\addColor16(std::vector\u003cunsigned char\u003e\u0026,unsigned short,unsigned short,unsigned short,unsigned short)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "85e3e975626a595838e211c66276cac6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode()",
+      "start-type": "FunctionNode",
+      "start-md5": "c4bd79a7e35bbad9c2cbdcf66228c84e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c4bd79a7e35bbad9c2cbdcf66228c84e"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_state_init(LodePNGState*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "d4fb032bb26b6e4e7dc1b7ae0d28198b"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f0d84a8dac19416f68faeb7f228c21"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_decode(unsigned char**,unsigned*,unsigned*,LodePNGState*,unsigned char const*,size_t)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b590b3f9b1bc36f82c2fbe113d119860"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "start-type": "FunctionNode",
+      "start-md5": "48ceedc16f5e02c53c1c15d24cab0d55",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_state_cleanup(LodePNGState*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7976bbf2122c59f5419629170e80741c"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPaletteToPaletteDecode2()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "48ceedc16f5e02c53c1c15d24cab0d55"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "start-type": "FunctionNode",
+      "start-md5": "a411dd3498d59ac44df995149f70becb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "start-type": "FunctionNode",
+      "start-md5": "a411dd3498d59ac44df995149f70becb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertColorProfileDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4db67ab0649266fcc7e74a26ee773b4f"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "start-type": "FunctionNode",
+      "start-md5": "a411dd3498d59ac44df995149f70becb",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_set_icc(LodePNGInfo*,char const*,unsigned char const*,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7aa736106fe4b80f2452bb95d9701c57"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testColorProfile()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "a411dd3498d59ac44df995149f70becb"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModels()",
+      "start-type": "FunctionNode",
+      "start-md5": "e26a08f20c95b0fa5ff1b71b0f00fb0d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testAutoColorModels()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "e26a08f20c95b0fa5ff1b71b0f00fb0d"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertExifDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "62d940a84afd91157b07e6b0b50a6739",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertExifDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "62d940a84afd91157b07e6b0b50a6739"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "start-type": "FunctionNode",
+      "start-md5": "5b8db45a667e5416433629156c99ba68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_set_exif(LodePNGInfo*,unsigned char const*,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2e9059524e433bcfcf210ec0a6ede4de"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testExif()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5b8db45a667e5416433629156c99ba68"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\assertColorProfileDataEqual(lodepng::State const\u0026,lodepng::State const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "4db67ab0649266fcc7e74a26ee773b4f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_copy(LodePNGColorMode*,LodePNGColorMode const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0596207c01228945067f537f014725ac"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_get_bpp(LodePNGColorMode const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0272bbabdf718cf44923b1b7e76efbfd"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "66d42af25bb0522f6586c9d159894f49",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4dad584063451e51d6a98290d9977857"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "b68e9562b0aaccda3f0f4ec928b8239f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "b68e9562b0aaccda3f0f4ec928b8239f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "b68e9562b0aaccda3f0f4ec928b8239f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f0d84a8dac19416f68faeb7f228c21"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "b68e9562b0aaccda3f0f4ec928b8239f",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_cleanup(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4440c902f35196826e16ff17e295fd17"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b68e9562b0aaccda3f0f4ec928b8239f"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "start-type": "FunctionNode",
+      "start-md5": "c0215fd994fdd3911000b77c20edd5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "start-type": "FunctionNode",
+      "start-md5": "c0215fd994fdd3911000b77c20edd5ef",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_inspect(unsigned*,unsigned*,LodePNGState*,unsigned char const*,size_t)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "10af36778a153665085498b2bb3251c9"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk2()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "c0215fd994fdd3911000b77c20edd5ef"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "323ca543bcfdcc950222f578f7efd5fd",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "323ca543bcfdcc950222f578f7efd5fd",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "323ca543bcfdcc950222f578f7efd5fd",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_get_bpp(LodePNGColorMode const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0272bbabdf718cf44923b1b7e76efbfd"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBkgdChunk(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "323ca543bcfdcc950222f578f7efd5fd",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4dad584063451e51d6a98290d9977857"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_copy(LodePNGColorMode*,LodePNGColorMode const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0596207c01228945067f537f014725ac"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_palette_add(LodePNGColorMode*,unsigned char,unsigned char,unsigned char,unsigned char)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b3f0d84a8dac19416f68faeb7f228c21"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,std::vector\u003cunsigned char\u003econst\u0026,unsigned,unsigned,LodePNGColorMode const\u0026,LodePNGColorMode const\u0026,bool,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "22b86bb817f54fed8ef3606f46d58b40",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4dad584063451e51d6a98290d9977857"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "4546dbea476032e1a9577ccfa02ad9d1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "4546dbea476032e1a9577ccfa02ad9d1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,bool\u003d false)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5722592e5b895894eb6bb55afa8db463"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "start-type": "FunctionNode",
+      "start-md5": "4546dbea476032e1a9577ccfa02ad9d1",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "1c05e3ea239eb7c3088664928db58632"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4546dbea476032e1a9577ccfa02ad9d1"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "5722592e5b895894eb6bb55afa8db463",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "5722592e5b895894eb6bb55afa8db463",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "1c05e3ea239eb7c3088664928db58632",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "1c05e3ea239eb7c3088664928db58632",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_color_mode_init(LodePNGColorMode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "673f7bf7a6e8536864c093bde085cda6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "1c05e3ea239eb7c3088664928db58632",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_get_bpp(LodePNGColorMode const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "0272bbabdf718cf44923b1b7e76efbfd"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testSbitChunk2(unsigned,unsigned,unsigned,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,LodePNGColorType,unsigned,int,bool\u003d false)",
+      "start-type": "FunctionNode",
+      "start-md5": "1c05e3ea239eb7c3088664928db58632",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_convert(unsigned char*,unsigned char const*,LodePNGColorMode const*,LodePNGColorMode const*,unsigned,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4dad584063451e51d6a98290d9977857"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb()",
+      "start-type": "FunctionNode",
+      "start-md5": "6afe6c50047d64b0d1a7762306fc67fa",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "6afe6c50047d64b0d1a7762306fc67fa"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertToXYZ(float*,float[3],unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "e149dd485051cc6503c23ec1c2ee1ab6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertFromXYZ(unsigned char*,float const*,unsigned,unsigned,LodePNGState const*,float const[3],unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "93b3e633e5d868721de0e5f099817799"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_info_init(LodePNGInfo*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2826d2d75250a355f24ce08edfe98e53"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_info_copy(LodePNGInfo*,LodePNGInfo const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5db38708643f66eaf4e306ad2aca22c0"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "start-type": "FunctionNode",
+      "start-md5": "7bd06adf25fc94b09b09f78b71231f68",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_info_cleanup(LodePNGInfo*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "acb1a78acee1ea3f0248a353e51665f7"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testXYZ()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7bd06adf25fc94b09b09f78b71231f68"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertToSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b32a571e493a6a4f3483ab40ec058220"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testChrmToSrgb(unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,unsigned char,int\u003d 0)",
+      "start-type": "FunctionNode",
+      "start-md5": "01a2c3f4c07afcfc9a057056940e4fc2",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertFromSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "46c49cae47d66d61fefb71d469e9c9af"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_set_icc(LodePNGInfo*,char const*,unsigned char const*,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7aa736106fe4b80f2452bb95d9701c57"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertToSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b32a571e493a6a4f3483ab40ec058220"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertRGBModel(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*,LodePNGState const*,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "fcedb12d08190fbc96398a14dc2a426a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "start-type": "FunctionNode",
+      "start-md5": "9c84816151f407ca2fcf77befcf1a6ac",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertFromSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "46c49cae47d66d61fefb71d469e9c9af"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICC()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9c84816151f407ca2fcf77befcf1a6ac"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "dacabf6def304a3440b2dae146b61f1d",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPngSuiteImage(std::string const\u0026,std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e0b8aef0de04cf574ccb80429c4680dc",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "dacabf6def304a3440b2dae146b61f1d"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testErrorImages()",
+      "start-type": "FunctionNode",
+      "start-md5": "47cad504829c0c1dde10c2b4f79b2552",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testBase64Image(std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "dacabf6def304a3440b2dae146b61f1d"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_set_icc(LodePNGInfo*,char const*,unsigned char const*,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "7aa736106fe4b80f2452bb95d9701c57"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertToSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b32a571e493a6a4f3483ab40ec058220"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertFromSrgb(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "46c49cae47d66d61fefb71d469e9c9af"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "start-type": "FunctionNode",
+      "start-md5": "b9c48d490aa3a31b10dacd2496df8bd6",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp\\lodepng\\convertRGBModel(unsigned char*,unsigned char const*,unsigned,unsigned,LodePNGState const*,LodePNGState const*,unsigned)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "fcedb12d08190fbc96398a14dc2a426a"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testICCGray()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b9c48d490aa3a31b10dacd2496df8bd6"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPngSuiteImage(std::string const\u0026,std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "e0b8aef0de04cf574ccb80429c4680dc",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPngSuite()",
+      "start-type": "FunctionNode",
+      "start-md5": "e23a46c98cc0cc17e8d535b704ca81c5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPngSuiteImage(std::string const\u0026,std::string const\u0026,bool,unsigned,unsigned,std::string const\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "e0b8aef0de04cf574ccb80429c4680dc"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testErrorImages()",
+      "start-type": "FunctionNode",
+      "start-md5": "47cad504829c0c1dde10c2b4f79b2552",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testErrorImages()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "47cad504829c0c1dde10c2b4f79b2552"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\doMain()",
+      "start-type": "FunctionNode",
+      "start-md5": "4b6cd38d341902cc50be59c8295b321e",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPngSuite()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "e23a46c98cc0cc17e8d535b704ca81c5"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp\\testPngSuite()",
+      "start-type": "FunctionNode",
+      "start-md5": "e23a46c98cc0cc17e8d535b704ca81c5",
+      "end": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

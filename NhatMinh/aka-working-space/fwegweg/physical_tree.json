@@ -1,0 +1,83 @@
+{
+  "path": ".\\lvandeve_lodepng",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\lvandeve_lodepng\\inc",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\lvandeve_lodepng\\inc\\lodepng.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\inc\\lodepng_util.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\inc\\SDL.h",
+          "type": "com.dse.parser.object.HeaderNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": ".\\lvandeve_lodepng\\src",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\lvandeve_lodepng\\src\\lodepng.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": [
+            {
+              "path": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp\\",
+              "type": "com.dse.parser.object.LinkageSpecificationDeclaration",
+              "children": []
+            },
+            {
+              "path": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp\\",
+              "type": "com.dse.parser.object.NamespaceNode",
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        },
+        {
+          "path": ".\\lvandeve_lodepng\\src\\pngdetail.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "09/27/2025 00:38:11",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

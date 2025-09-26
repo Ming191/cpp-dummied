@@ -1,0 +1,20 @@
+{
+  "compilationCommands": {
+    ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\dummy.akaignore.cpp.out\"",
+    ".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\outlandnish_fw-ghost-drive\\src\\CANProcessor.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\CANProcessor.akaignore.cpp.out\"",
+    ".\\outlandnish_fw-ghost-drive\\src\\main.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\outlandnish_fw-ghost-drive\\src\\main.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\main.akaignore.cpp.out\"",
+    ".\\outlandnish_fw-ghost-drive\\src\\GearSensor.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\outlandnish_fw-ghost-drive\\src\\GearSensor.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\include\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"E:\\\\cpp-projects-collection\\\\NhatMinh\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\GearSensor.akaignore.cpp.out\""
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": "E:\\cpp-projects-collection\\NhatMinh\\outlandnish_fw-ghost-drive\\program.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\CANProcessor.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\dummy.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\GearSensor.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\ccccc\\\\instruments\\src\\main.akaignore.cpp.out"
+    ]
+  },
+  "executablePath": ""
+}

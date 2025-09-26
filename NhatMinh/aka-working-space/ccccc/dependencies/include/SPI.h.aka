@@ -1,0 +1,154 @@
+{
+  "path": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+  "dependency": [
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings\\SPISettings(unsigned long,unsigned char,unsigned char)",
+      "start-type": "ConstructorNode",
+      "start-md5": "baf6c3df92414cad0d6188cd4b75da7d",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "6e5054423a650c32dae85c326732434d"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings\\SPISettings()",
+      "start-type": "ConstructorNode",
+      "start-md5": "58ffdf2eb32ff7f6c2abac58183e29e4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPISettings",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "6e5054423a650c32dae85c326732434d"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\begin()",
+      "start-type": "FunctionNode",
+      "start-md5": "9e75ce4680928b9f706344af005c8504",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\end()",
+      "start-type": "FunctionNode",
+      "start-md5": "ccd3de05e1ca5968532a29e4b072b1c2",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\beginTransaction(SPISettings)",
+      "start-type": "FunctionNode",
+      "start-md5": "8296108439d2e9444e68ef6b4713d92e",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\transfer(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "d8baae1fc857f9e6c7c7cb3febc5fb9d",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\transfer16(unsigned short)",
+      "start-type": "FunctionNode",
+      "start-md5": "307411e8e24b233c31f0d24c3f30f55a",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\transfer(void*,size_t)",
+      "start-type": "FunctionNode",
+      "start-md5": "b00f32947d2bee0a4149dfd52c785bd9",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\setBitOrder(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "b828780a2c7b2ee940c2b21841565abf",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\setDataMode(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "3462c179d56ef1c565f919d3cf3e14a6",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\setClockDivider(unsigned char)",
+      "start-type": "FunctionNode",
+      "start-md5": "0d0617f2ebff47ce753fb08783be9d86",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\attachInterrupt()",
+      "start-type": "FunctionNode",
+      "start-md5": "5226cc1e7fe9efa1c350ca99cd77d57f",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\detachInterrupt()",
+      "start-type": "FunctionNode",
+      "start-md5": "91de27c4f7a0e833750a5757e336c01a",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\endTransaction()",
+      "start-type": "FunctionNode",
+      "start-md5": "e6961490136d3e5ebed38a350e573bf4",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ec66d3b084803c314ebe85156b79bf3c"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\main.cpp\\setupPotentiometers()",
+      "start-type": "FunctionNode",
+      "start-md5": "7669880a5e99d1126e827cd6359b9d67",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h\\SPIClass\\begin()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9e75ce4680928b9f706344af005c8504"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\include\\main.h",
+      "start-type": "HeaderNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    },
+    {
+      "start": ".\\outlandnish_fw-ghost-drive\\src\\dummy.cpp",
+      "start-type": "CppFileNode",
+      "end": ".\\outlandnish_fw-ghost-drive\\include\\SPI.h",
+      "end-type": "HeaderNode",
+      "type": "IncludeHeaderDependency"
+    }
+  ]
+}

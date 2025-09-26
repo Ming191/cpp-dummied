@@ -1,0 +1,424 @@
+{
+  "name": "RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "result": "0/0",
+  "path": ".\\\\aka-working-space\\\\fwegweg\\\\test-cases\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\fwegweg\\\\test-drivers\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\fwegweg\\\\test-paths\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.tp",
+  "executable": ".\\\\aka-working-space\\\\fwegweg\\\\exe\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.exe",
+  "commandConfig": ".\\aka-working-space\\fwegweg\\test-case-commands\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\fwegweg\\\\debugger\\\\commands\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\fwegweg\\\\debugger\\\\breakpoints\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\fwegweg\\\\exe\\debug_RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\fwegweg\\\\execution-results\\RGBtoHCT_unsigned_char_unsigned_char_unsigned_char_unsigned_charmul_unsigned_charmul_unsigned_charmul_manual_0.xml",
+  "creationDate": "2025-09-27T01:23:36.340282500",
+  "executionDate": "2025-09-27T01:23:56.892897",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "pngdetail.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.RootDataNode",
+            "name": "SBF",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+            "level": "SBF",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.SubprogramNode",
+                "name": "RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+                "virtual_name": "NON_VALUE",
+                "dataType": "void",
+                "realType": "void",
+                "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHSL(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+                "children": [
+                  {
+                    "type": "com.dse.parser.object.NumberOfCallNode",
+                    "name": "Number of calls",
+                    "virtual_name": "Number of calls",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+            "paramExpectedOuputs": [],
+            "level": "GLOBAL"
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "t",
+                "virtual_name": "EXPECTED_t",
+                "dataType": "unsigned char*",
+                "realType": "unsigned char*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\t",
+                "correspondingType": "",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "c",
+                "virtual_name": "EXPECTED_c",
+                "dataType": "unsigned char*",
+                "realType": "unsigned char*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\c",
+                "correspondingType": "",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "g",
+                "virtual_name": "EXPECTED_g",
+                "dataType": "unsigned char",
+                "realType": "unsigned char",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\g",
+                "correspondingType": "unsigned char",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "h",
+                "virtual_name": "EXPECTED_h",
+                "dataType": "unsigned char*",
+                "realType": "unsigned char*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\h",
+                "correspondingType": "",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "b",
+                "virtual_name": "EXPECTED_b",
+                "dataType": "unsigned char",
+                "realType": "unsigned char",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\b",
+                "correspondingType": "unsigned char",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "r",
+                "virtual_name": "EXPECTED_r",
+                "dataType": "unsigned char",
+                "realType": "unsigned char",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\r",
+                "correspondingType": "unsigned char",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "r",
+                "virtual_name": "r",
+                "dataType": "unsigned char",
+                "realType": "unsigned char",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\r",
+                "correspondingType": "unsigned char",
+                "value": "12"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "g",
+                "virtual_name": "g",
+                "dataType": "unsigned char",
+                "realType": "unsigned char",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\g",
+                "correspondingType": "unsigned char",
+                "value": "12"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "b",
+                "virtual_name": "b",
+                "dataType": "unsigned char",
+                "realType": "unsigned char",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\b",
+                "correspondingType": "unsigned char",
+                "value": "12"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "h",
+                "virtual_name": "h",
+                "dataType": "unsigned char*",
+                "realType": "unsigned char*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\h",
+                "correspondingType": "",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "h[0]",
+                    "virtual_name": "h[0]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\h\\h[0]",
+                    "correspondingType": "unsigned char",
+                    "value": "49"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "h[1]",
+                    "virtual_name": "h[1]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\h\\h[1]",
+                    "correspondingType": "unsigned char",
+                    "value": "50"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "h[2]",
+                    "virtual_name": "h[2]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\h\\h[2]",
+                    "correspondingType": "unsigned char",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "c",
+                "virtual_name": "c",
+                "dataType": "unsigned char*",
+                "realType": "unsigned char*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\c",
+                "correspondingType": "",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "c[0]",
+                    "virtual_name": "c[0]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\c\\c[0]",
+                    "correspondingType": "unsigned char",
+                    "value": "49"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "c[1]",
+                    "virtual_name": "c[1]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\c\\c[1]",
+                    "correspondingType": "unsigned char",
+                    "value": "50"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "c[2]",
+                    "virtual_name": "c[2]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\c\\c[2]",
+                    "correspondingType": "unsigned char",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerCharacterDataNode",
+                "name": "t",
+                "virtual_name": "t",
+                "dataType": "unsigned char*",
+                "realType": "unsigned char*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\t",
+                "correspondingType": "",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "t[0]",
+                    "virtual_name": "t[0]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\t\\t[0]",
+                    "correspondingType": "unsigned char",
+                    "value": "49"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "t[1]",
+                    "virtual_name": "t[1]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\t\\t[1]",
+                    "correspondingType": "unsigned char",
+                    "value": "50"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "t[2]",
+                    "virtual_name": "t[2]",
+                    "dataType": "unsigned char",
+                    "realType": "unsigned char",
+                    "external": false,
+                    "correspondingVar": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)\\t\\t[2]",
+                    "correspondingType": "unsigned char",
+                    "value": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "RGBtoHSL",
+          "std::min\u003cint\u003e",
+          "std::max\u003cint\u003e"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_benchmark.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "RGBtoHSL",
+          "std::min\u003cint\u003e",
+          "std::max\u003cint\u003e"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_fuzzer.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "RGBtoHSL",
+          "std::min\u003cint\u003e",
+          "std::max\u003cint\u003e"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_unittest.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "RGBtoHSL",
+          "std::min\u003cint\u003e",
+          "std::max\u003cint\u003e"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_util.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "RGBtoHSL",
+          "std::min\u003cint\u003e",
+          "std::max\u003cint\u003e"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp\\RGBtoHCT(unsigned char,unsigned char,unsigned char,unsigned char*,unsigned char*,unsigned char*)",
+        "level": "STUB",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "SDL.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\lvandeve_lodepng\\inc\\SDL.h",
+            "children": [],
+            "filteredCalledFunctions": [
+              "RGBtoHSL",
+              "std::min\u003cint\u003e",
+              "std::max\u003cint\u003e"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "RGBtoHSL();",
+      "isSelected": false,
+      "location": 230,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

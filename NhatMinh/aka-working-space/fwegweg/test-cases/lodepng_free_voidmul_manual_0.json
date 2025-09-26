@@ -1,0 +1,151 @@
+{
+  "name": "lodepng_free_voidmul_manual_0",
+  "status": "N/A",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\fwegweg\\\\test-cases\\lodepng_free_voidmul_manual_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\fwegweg\\\\debugger\\\\breakpoints\\lodepng_free_voidmul_manual_0.br.json",
+  "creationDate": "2025-09-27T01:22:43.302005700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "lodepng.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.RootDataNode",
+            "name": "SBF",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)",
+            "level": "SBF"
+          },
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)",
+            "paramExpectedOuputs": [],
+            "level": "GLOBAL"
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "lodepng_free(void*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.VoidPointerDataNode",
+                "name": "ptr",
+                "virtual_name": "EXPECTED_ptr",
+                "dataType": "void*",
+                "realType": "void*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)\\ptr"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.VoidPointerDataNode",
+                "name": "ptr",
+                "virtual_name": "ptr",
+                "dataType": "void*",
+                "realType": "void*",
+                "external": false,
+                "correspondingVar": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)\\ptr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_benchmark.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_benchmark.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_fuzzer.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_fuzzer.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_unittest.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_unittest.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "lodepng_util.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\lodepng_util.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.StubUnitNode",
+        "name": "pngdetail.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\lvandeve_lodepng\\src\\pngdetail.cpp",
+        "children": [],
+        "filteredCalledFunctions": [
+          "free"
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\lvandeve_lodepng\\src\\lodepng.cpp\\lodepng_free(void*)",
+        "level": "STUB",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.StubUnitNode",
+            "name": "SDL.h",
+            "virtual_name": "NON_VALUE",
+            "sourceNode": ".\\lvandeve_lodepng\\inc\\SDL.h",
+            "children": [],
+            "filteredCalledFunctions": [
+              "free"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "procedures": []
+}
